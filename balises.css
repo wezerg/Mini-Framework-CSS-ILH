@@ -1,7 +1,30 @@
-w{
+w{/* Texte, Police Mulish, Color Uno, Gras */
     font-family: 'Mulish';
     font-weight: 700;
     font-size: 13px;
     line-height: 16px;
     color: var(--color-uno);
+}
+x{/* Texte, Police Mulish, Color Dos, Gras */
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--color-dos);
+}
+j{/* Texte, Police Mulish, Color Uno, Italique */
+    font-family: 'Mulish';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--color-uno);
+}
+k{/* Texte, Police Mulish, Color Dos, Italique */
+    font-family: 'Mulish';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--color-dos);
 }
