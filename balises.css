@@ -28,3 +28,35 @@ k{/* Texte, Police Mulish, Color Dos, Italique */
     line-height: 16px;
     color: var(--color-dos);
 }
+l{/* Texte, Police Mulish, Color Uno, Gras, Upper */
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--color-uno);
+}
+m{/* Texte, Police Mulish, Color Dos, Gras, Upper */
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--color-dos);
+}
+n{/* Texte, Underline Uno */
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: underline;
+    text-decoration-color: var(--color-uno);
+}
+u{/* Texte, Underline Dos */
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: underline;
+    text-decoration-color: var(--color-dos);
+}
