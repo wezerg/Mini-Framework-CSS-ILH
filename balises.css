@@ -44,19 +44,32 @@ m{/* Texte, Police Mulish, Color Dos, Gras, Upper */
     text-transform: uppercase;
     color: var(--color-dos);
 }
-n{/* Texte, Underline Uno */
-    font-family: 'Mulish';
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 16px;
+n{/* Underline Uno */
     text-decoration: underline;
     text-decoration-color: var(--color-uno);
 }
-u{/* Texte, Underline Dos */
-    font-family: 'Mulish';
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 16px;
+u{/* Underline Dos */
     text-decoration: underline;
     text-decoration-color: var(--color-dos);
+}
+e1,e2{position: relative;}
+e1::after{/* Underline Big Uno */
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 4px;
+    background-color: var(--color-uno);
+    bottom: 1px;
+    left: 0;
+}
+e2::after{/* Underline Big Dos */
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 4px;
+    background-color: var(--color-dos);
+    bottom: 1px;
+    left: 0;
 }
