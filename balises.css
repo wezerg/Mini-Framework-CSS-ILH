@@ -142,3 +142,13 @@ fond2{/*Texte Upper, Color White, Fond Dos, Radius 20 */
     background-color: var(--color-dos);
     padding: 2px 13px;
 }
+up1{/* Texte, Border Gradient, Gras */
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: 1px 5px;
+    border-image: linear-gradient(to bottom, var(--color-uno), var(--color-dos)) 1;
+}
