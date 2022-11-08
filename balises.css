@@ -73,3 +73,24 @@ e2::after{/* Underline Big Dos */
     bottom: 1px;
     left: 0;
 }
+r1{/* Texte, Police Abril, Color Uno */
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--color-uno);
+}
+r2{/* Texte, Police Abril, Color Dos */
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--color-dos);
+}
+r3{/* Texte, Police Abril, Color Text */
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--color-text);
+}
