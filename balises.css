@@ -1,3 +1,4 @@
+/* Textes */
 w{/* Texte, Police Mulish, Color Uno, Gras */
     font-family: 'Mulish';
     font-weight: 700;
@@ -182,4 +183,122 @@ best2{/* Fond Dos, Texte Mulish, Color Bloc 1 Upper*/
     text-transform: uppercase;
     background: var(--color-dos);
     padding: 2px 9px;
+}
+/* Titles */
+title1, title2, title3, title4, title5, title6, title7{ /* Setup Title */
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+}
+title1{ /* Title Abril, Color Gradient */
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    background: linear-gradient(180deg, #6C7B52 0%, #7271AF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+title2{/* Title Bebas, Color Dos, Border Dos Bottom, Circle Right */
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--color-dos);
+    border-bottom: 3px solid var(--color-dos);
+    margin: 0 15px 15px;
+    position: relative;
+}
+title2::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--color-dos);
+    bottom: -9px;
+    right: -5px;
+}
+title3{/* Title Bebas, Color Uno, Border Uno Bottom, Circle Right */
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--color-uno);
+    border-bottom: 3px solid var(--color-uno);
+    margin: 0 15px 15px;
+    position: relative;
+}
+title3::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--color-uno);
+    bottom: -9px;
+    right: -5px;
+}
+title4{/* Title Bebas, Color Uno, Underline Uno */
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--color-uno);
+    position: relative;
+}
+title4::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: calc(100% - 20px);
+    height: 5px;
+    background-color: var(--color-uno);
+    filter: opacity(0.5);
+    bottom: 5px;
+    left: 10px;
+}
+title5{/* Title Bebas, Color Dos, Underline Dos */
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--color-dos);
+    position: relative;
+}
+title5::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: calc(100% - 20px);
+    height: 5px;
+    background-color: var(--color-dos);
+    filter: opacity(0.5);
+    bottom: 5px;
+    left: 10px;
+}
+title6{/* Title Bebas, Color Bloc 1, Background Uno */
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 20px;
+    padding: 5px 0;
+    margin: 0 10px;
+    color: var(--color-bloc-1);
+    background-color: var(--color-uno);
+}
+title7{/* Title Bebas, Color Bloc 1, Background Dos */
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 20px;
+    padding: 5px 0;
+    margin: 0 10px;
+    color: var(--color-bloc-1);
+    background-color: var(--color-dos);
 }
