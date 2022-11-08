@@ -94,3 +94,37 @@ r3{/* Texte, Police Abril, Color Text */
     line-height: 18px;
     color: var(--color-text);
 }
+k1{/* Texte, Police Bebas, Color Dos, Gras, Upper */
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: var(--color-dos);
+}
+k2{/* Texte, Police Bebas, Color Uno, Gras, Upper */
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: var(--color-uno);
+}
+k3{/* Texte, Police Bebas, Color Dos, Gras, Upper, Underline */
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: var(--color-dos);
+}
+k4{/* Texte, Police Bebas, Color Uno, Gras, Upper, Underline */
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: var(--color-uno);
+}
