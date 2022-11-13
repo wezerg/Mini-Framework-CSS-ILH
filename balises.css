@@ -184,6 +184,43 @@ best2{/* Fond Dos, Texte Mulish, Color Bloc 1 Upper*/
     background: var(--color-dos);
     padding: 2px 9px;
 }
+/* Décoration Groupes */
+adams, dudley, kirkland, pfo, students, iwantit, love, fire, idwbya, darkrises{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+adams{
+    color: #00B0F0;
+}
+dudley{
+    color: #E80065;
+}
+kirkland{
+    color: #626CC7;
+}
+pfo{
+    color: #D19E07;
+}
+students{
+    color: #C6AE8A;
+}
+iwantit{
+    color: #38A33F;
+}
+love{
+    color: #AB2037;
+}
+fire{
+    color: #E38846;
+}
+idwbya{
+    color: #008796;
+}
+darkrises{
+    color: #70A3C7;
+}
 /* Titles */
 title1, title2, title3, title4, title5, title6, title7{ /* Setup Title */
     display: block;
