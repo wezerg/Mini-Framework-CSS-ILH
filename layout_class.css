@@ -440,7 +440,8 @@
 }
 .admin-content-field-bloc-badge > .bloc-text > span, .admin-content-field-bloc-profil > .bloc-text > span{
     overflow-y: auto;
-    max-height: 32px;
+    max-height: 64px;
+    padding-right: 8px;
 }
 .admin-content-field-bloc-badge > .bloc-text [class^="badge-"], .admin-content-field-bloc-profil > .bloc-text [class^="rounded-img"]{
     position: absolute;
