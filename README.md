@@ -1,3 +1,7 @@
-# Balise RP ILH
+# Mini Framework CSS ILH
 
-Ecriture de balises HTML supplémentaire pour l'écriture de texte dans un contexte "ForumActif"
+Ensemble de fichier de style CSS pour le forum I love Harvard.
+
+- ```custom_tag.css``` => Balises HTML customisé pour l'écriture de sujets
+- ```general_class.css``` => Classes CSS générales
+- ```layout_class.css``` => Classes CSS pour l'utilisation de gabarits HTML dans les sujets
