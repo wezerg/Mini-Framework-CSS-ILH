@@ -352,7 +352,7 @@
     height: 35px;
     padding: 10px;
     transform: skew(-10deg) rotate(-10deg) scaleX(1.1) translateY(-80px);
-    border-bottom: 55px solid var(--color-bloc-1);
+    border-bottom: 60px solid var(--color-bloc-1);
     margin: -15px 0 0 0;
     background: linear-gradient(180deg, var(--color-dos) 0, var(--color-dos) 55px, transparent 55px, transparent 100%);
 }
