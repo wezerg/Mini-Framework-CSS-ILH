@@ -135,6 +135,7 @@ fond1{/*Texte Upper, Color White, Fond Uno, Radius 20 */
     color: var(--color-bloc-1);
     background-color: var(--color-uno);
     padding: 2px 13px;
+    line-height: 23px;
 }
 fond2{/*Texte Upper, Color White, Fond Dos, Radius 20 */
     border-radius: 20px;
@@ -142,11 +143,12 @@ fond2{/*Texte Upper, Color White, Fond Dos, Radius 20 */
     color: var(--color-bloc-1);
     background-color: var(--color-dos);
     padding: 2px 13px;
+    line-height: 23px;
 }
 up1{/* Texte, Border Gradient, Gras */
     font-weight: 700;
     font-size: 13px;
-    line-height: 16px;
+    line-height: 23px;
     text-transform: uppercase;
     border-width: 2px;
     border-style: solid;
@@ -157,7 +159,7 @@ beauty{/* Fond Gradient, Texte Bebas, Color White */
     font-family: 'Bebas Neue';
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 31px;
     border-radius: 20px;
     color: var(--color-white);
     background: linear-gradient(180deg, #6C7B52 0%, #7271AF 100%);
@@ -169,6 +171,7 @@ gradiant{/* Fond Gradient, Texte Mulish, Color Bloc 1, Upper*/
     text-transform: uppercase;
     background: linear-gradient(90deg, var(--color-uno) 0%, var(--color-dos) 100%);
     padding: 2px 9px;
+    line-height: 23px;
 }
 best1{/* Fond Uno, Texte Mulish, Color Bloc 1 Upper*/
     font-family: 'Mulish';
@@ -176,6 +179,7 @@ best1{/* Fond Uno, Texte Mulish, Color Bloc 1 Upper*/
     text-transform: uppercase;
     background: var(--color-uno);
     padding: 2px 9px;
+    line-height: 23px;
 }
 best2{/* Fond Dos, Texte Mulish, Color Bloc 1 Upper*/
     font-family: 'Mulish';
@@ -183,6 +187,7 @@ best2{/* Fond Dos, Texte Mulish, Color Bloc 1 Upper*/
     text-transform: uppercase;
     background: var(--color-dos);
     padding: 2px 9px;
+    line-height: 23px;
 }
 /* Décoration Groupes */
 adams, dudley, kirkland, pfo, students, iwantit, love, fire, idwbya, darkrises{
