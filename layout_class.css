@@ -523,6 +523,7 @@
     border-radius: 5px;
     margin-bottom: 16px;
     position: relative;
+    border-left: 3px solid var(--color-bloc-2);
 }
 [class^="card-user-bottin"] *{
     display: block;
