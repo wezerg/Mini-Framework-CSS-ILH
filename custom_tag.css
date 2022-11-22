@@ -60,7 +60,7 @@ e1::after{/* Underline Big Uno */
     z-index: -1;
     width: 100%;
     height: 4px;
-    background-color: var(--color-uno);
+    background-color: rgba(var(--rgb-uno), 0.8);
     bottom: 1px;
     left: 0;
 }
@@ -70,7 +70,7 @@ e2::after{/* Underline Big Dos */
     z-index: -1;
     width: 100%;
     height: 4px;
-    background-color: var(--color-dos);
+    background-color: rgba(var(--rgb-dos), 0.8);
     bottom: 1px;
     left: 0;
 }
