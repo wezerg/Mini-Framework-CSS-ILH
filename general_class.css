@@ -1,9 +1,13 @@
 
 /* Color */
 .bg-uno{background-color: var(--color-uno)!important}
+.bg-uno-light{background-color: rgba(var(--rgb-uno), 0.8);}
 .c-uno{color: var(--color-uno)!important}
+.c-uno-light{color: rgba(var(--rgb-uno), 0.8);}
 .bg-dos{background-color: var(--color-dos)!important}
+.bg-dos-light{background-color: rgba(var(--rgb-dos), 0.8);}
 .c-dos{color: var(--color-dos)!important}
+.c-dos-light{color: rgba(var(--rgb-dos), 0.8);}
 .bg-lu{background-color: var(--color-lu)!important}
 .c-lu{color: var(--color-lu)!important}
 .bg-text{background-color: var(--color-text)!important}
