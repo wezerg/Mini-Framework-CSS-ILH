@@ -162,7 +162,7 @@ beauty{/* Fond Gradient, Texte Bebas, Color White */
     line-height: 31px;
     border-radius: 20px;
     color: var(--color-white);
-    background: linear-gradient(180deg, #6C7B52 0%, #7271AF 100%);
+    background: linear-gradient(180deg, var(--color-uno) 0%, var(--color-dos) 100%);
     padding: 2px 15px;
 }
 gradiant{/* Fond Gradient, Texte Mulish, Color Bloc 1, Upper*/
@@ -237,7 +237,7 @@ title1{ /* Title Abril, Color Gradient */
     font-weight: 400;
     font-size: 32px;
     line-height: 43px;
-    background: linear-gradient(180deg, #6C7B52 0%, #7271AF 100%);
+    background: linear-gradient(180deg, var(--color-uno) 0%, var(--color-dos) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
