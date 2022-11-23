@@ -34,7 +34,7 @@
     height: 80px;
     width: 80px;
     padding: 12px 10px;
-    background-color: var(--color-uno);
+    background-color: rgba(var(--rgb-uno), 0.8);
     background-position: center;
     background-size: 60px 56px;
     background-repeat: no-repeat;
@@ -266,7 +266,7 @@
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    color: white;
+    color: var(--color-white);
     background: linear-gradient(180deg, var(--color-uno) 0%, var(--color-dos) 100%);
     font-family: 'Abril Fatface';
     font-size: 32px;
