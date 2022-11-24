@@ -278,6 +278,9 @@ blockquote blockquote{
     font-size: unset;
     margin: 12px 52px;
 }
+blockquote blockquote blockquote{
+    background-color: unset;
+}
 blockquote div{
     margin-left: unset;
 }
