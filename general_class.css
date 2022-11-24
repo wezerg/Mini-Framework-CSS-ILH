@@ -273,6 +273,11 @@ blockquote{
     text-align: justify;
     font-size: 13px;
 }
+blockquote blockquote{
+    background-color: unset;
+    font-size: unset;
+    margin: 12px 52px;
+}
 blockquote div{
     margin-left: unset;
 }
