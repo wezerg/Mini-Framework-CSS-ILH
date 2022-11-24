@@ -248,3 +248,69 @@ a:hover, a:hover > *{
     color: var(--color-dos);
     text-decoration: underline;
 }
+
+/* General for element quote, code, etc... */
+dl.codebox{
+    background-color: unset;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: justify;
+    border: none;
+    color: var(--color-text);
+}
+dl.codebox dt{
+    border-bottom: none;
+}
+/* Element quote */
+blockquote{
+    margin: 12px 52px;
+    padding: 0;
+    background: unset;
+    border: none;
+    text-align: justify;
+    font-size: 13px;
+}
+blockquote div{
+    margin-left: unset;
+}
+blockquote cite{
+    color: var(--color-uno);
+    text-transform: uppercase;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 14px;
+    margin-bottom: 5px;
+}
+/* Element code */
+dl.codebox code{
+    border: 1px dashed var(--color-uno);
+    padding: 10px 16px;
+    color: var(--color-text);
+}
+/* Element spoiler */
+dl.codebox.spoiler .spoiler_title{
+    background-color: var(--color-uno);
+    color: var(--color-white);
+    font-weight: 700;
+    line-height: 14px;
+    text-transform: uppercase;
+    padding: 8px 12px;
+}
+.spoiler_content{
+    border: 1px dashed var(--color-uno);
+    padding: 10px 16px;
+    margin: 12px 20px;
+}
+/* Element hide */
+dl.codebox.hidecode{
+    border: 1px dashed var(--color-uno);
+    background: var(--color-bloc-3);
+    padding: 10px 16px;
+}
+dl.codebox.hidecode > dt{
+    display: none;
+}
