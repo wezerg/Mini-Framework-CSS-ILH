@@ -320,3 +320,93 @@ dl.codebox.hidecode{
 dl.codebox.hidecode > dt{
     display: none;
 }
+/* Redéfinition de classes natives */
+.panel{
+    background-color: var(--color-bloc-1)!important;
+}
+.row1, .row2, .row3{
+    background-color: unset!important;
+}
+.corners-top, .corners-bottom{
+    display: none!important;
+}
+h1.page-title{
+    font-family: 'Abril Fatface';
+    font-size: 32px;
+    line-height: 43px;
+    color: var(--color-text);
+}
+table.table1 *{
+    font-family: 'Mulish';
+    font-size: 13px;
+    line-height: 16px;
+}
+form[action="/search?search_id=watchsearch"] table.table1 tbody tr td:first-child, form[action="/search?search_id=watchsearch"] table.table1 thead tr th:first-child{
+    display: none;
+}
+a.topictitle:hover{
+    color: currentColor;
+}
+table.forumline{
+    background: var(--color-bloc-1);
+    padding: 8px;
+    border-radius: 8px;
+}
+table.forumline th.thCornerL, table th.thTop, table th.thCornerR{
+    background-color: rgba(var(--rgb-dos), 0.8);
+}
+table.forumline td.catHead{
+    font-family: 'Abril Fatface';
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--color-text);
+}
+h3, .h3, .content h2, .panel h2, .content h2.h3, .panel h2.h3{
+    color: var(--color-text);
+    border: none;
+    font-family: 'Abril Fatface';
+    font-size: 15px;
+    line-height: 19px;
+}
+a.button1, input.button1, a.button2, input.button2, button.button2, .external-module .external-more a{
+    padding: 4px 8px!important;
+    background: var(--color-uno);
+    border: 1px solid var(--color-uno)!important;
+    font-family: 'Mulish'!important;
+    font-size: 13px!important;
+    line-height: 16px;
+    color: var(--color-white)!important;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 3px rgba(184, 180, 180, 25%);
+}
+a.button1:hover, input.button1, a.button2:hover, input.button2:hover, button.button2:hover, .external-module .external-more a:hover{
+    background: var(--color-white);
+    color: var(--color-uno)!important;
+}
+.pagination span strong{
+    background-color: var(--color-bloc-2);
+    border: 1px solid var(--color-bloc-2);
+    color: var(--color-white);
+    font-size: 14px;
+}
+.pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active{
+    color: var(--color-text);
+    background-color: var(--color-bloc-1);
+    border: 1px solid var(--color-bloc-1);
+    font-size: 14px;
+}
+.pagination span a:hover {
+    background-color: var(--color-bloc-2);
+    border: 1px solid var(--color-bloc-2);
+    color: var(--color-white);
+    text-decoration: none;
+}
+.pagination span a.pag-img {
+    background: none!important;
+    border: none!important;
+}
+table.table1 tbody tr:hover, table.table1 tbody tr.hover {
+    background-color: unset;
+    color: currentColor;
+}
