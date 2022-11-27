@@ -34,7 +34,7 @@
     height: 80px;
     width: 80px;
     padding: 12px 10px;
-    background-color: rgba(var(--rgb-uno), 0.8);
+    background-color: var(--color-uno);
     background-position: center;
     background-size: 60px 56px;
     background-repeat: no-repeat;
