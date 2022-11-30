@@ -347,6 +347,9 @@ form[action="/search?search_id=watchsearch"] table.table1 tbody tr td:first-chil
 a.topictitle:hover{
     color: currentColor;
 }
+table.table1 tbody td{
+    border-top: none!important;
+}
 table.forumline{
     background: var(--color-bloc-1);
     padding: 8px;
