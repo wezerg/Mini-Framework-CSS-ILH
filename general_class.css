@@ -383,7 +383,7 @@ a.button1, input.button1, a.button2, input.button2, button.button2, .external-mo
     box-sizing: border-box;
     box-shadow: 0px 2px 3px rgba(184, 180, 180, 25%);
 }
-a.button1:hover, input.button1, a.button2:hover, input.button2:hover, button.button2:hover, .external-module .external-more a:hover{
+a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, button.button2:hover, .external-module .external-more a:hover{
     background: var(--color-white);
     color: var(--color-uno)!important;
 }
