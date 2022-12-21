@@ -1,6 +1,6 @@
 # Mini Framework CSS ILH
 
-Ensemble de fichier de style CSS pour le forum I love Harvard.
+Ensemble de fichiers de style CSS pour le forum I love Harvard.
 
 - ```custom_tag.css``` => Balises HTML customisé pour l'écriture de sujets
 - ```general_class.css``` => Classes CSS générales
