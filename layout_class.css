@@ -405,6 +405,7 @@
 .admin-content-field-info-bloc > div:nth-child(1) > div > span{
     overflow-y: auto;
     max-height: 180px;
+    min-height: 180px;
 }
 .admin-content-field-info-bloc > div:nth-child(2) > span{ /* Bloc 2 */
     border-radius: 0 10px 0 0;
@@ -416,6 +417,7 @@
     list-style-type: none;
     margin: unset;
     max-height: 180px;
+    min-height: 180px;
     overflow-y: auto;
     padding: 0 4px 0 0;
 }
