@@ -481,6 +481,9 @@
 .admin-content-field-list-info-plus > div > div > span{
     margin-top: 8px;
 }
+.admin-content-field-list-info > div > div > span, .admin-content-field-list-info-plus > div > div > span{
+    text-align: justify;
+}
 /* Bloc list caractéristique */
 .admin-content-field-list-carac{
     display: flex;
