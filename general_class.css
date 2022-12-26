@@ -245,7 +245,7 @@ label{
     line-height: 16px;
     color: var(--color-text);
 }
-a:link, a:visited{
+body#phpbb a:link,body#phpbb a:visited{
     color: var(--color-uno);
 }
 a:hover, a:hover > *{
@@ -328,7 +328,7 @@ dl.codebox.hidecode > dt{
 .panel{
     background-color: var(--color-bloc-1)!important;
 }
-.row1, .row2, .row3{
+body#phpbb .row1, body#phpbb .row2, body#phpbb .row3{
     background-color: unset!important;
 }
 .corners-top, .corners-bottom{
@@ -368,7 +368,7 @@ table.forumline td.catHead{
     line-height: 36px;
     color: var(--color-text);
 }
-h3, .h3, .content h2, .panel h2, .content h2.h3, .panel h2.h3{
+body#phpbb h3, body#phpbb .h3, body#phpbb .content h2, body#phpbb .panel h2, body#phpbb .content h2.h3, body#phpbb .panel h2.h3{
     color: var(--color-text);
     border: none;
     font-family: 'Abril Fatface';
@@ -416,4 +416,8 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, butt
 table.table1 tbody tr:hover, table.table1 tbody tr.hover {
     background-color: unset;
     color: currentColor;
+}
+/* Mobile */
+body#mpage-body-modern .search-topic-category span{
+    color: white;
 }
