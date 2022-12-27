@@ -510,7 +510,7 @@
     right: -25px;
     top: 15px;
 }
-.container-fiche-liens nav .rounded-img{
+.container-fiche-liens nav div{
     cursor: pointer;
     margin: 0 0 8px 0;
 }
