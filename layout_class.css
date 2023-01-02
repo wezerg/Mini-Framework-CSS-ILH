@@ -115,7 +115,7 @@
 [class^="rounded-img"] img{
     max-width: 100%;
 }
-[class^="rounded-img-s"]{
+[class^="rounded-img"][class$="-s"], [class^="rounded-img-s-"]{
     width: 80px;
     height: 80px;
     min-width: 80px;
@@ -123,7 +123,7 @@
     min-height: 80px;
     max-height: 80px;
 }
-[class^="rounded-img-m"]{
+[class^="rounded-img"][class$="-m"], [class^="rounded-img-m-"]{
     width: 100px;
     height: 100px;
     min-width: 100px;
@@ -131,7 +131,7 @@
     min-height: 100px;
     max-height: 100px;
 }
-[class^="rounded-img-l"]{
+[class^="rounded-img"][class$="-l"], [class^="rounded-img-l-"]{
     width: 168px;
     height: 168px;
     min-width: 168px;
@@ -154,7 +154,7 @@
 [class^="portrait-img"] img{
     max-width: 100%;
 }
-[class^="portrait-img-s"]{
+[class^="portrait-img"][class$="-s"], [class^="portrait-img-s-"]{
     width: 120px;
     height: 192px;
     min-width: 120px;
@@ -162,7 +162,7 @@
     min-height: 192px;
     max-height: 192px;
 }
-[class^="portrait-img-m"]{
+[class^="portrait-img"][class$="-m"], [class^="portrait-img-m-"]{
     width: 200px;
     height: 320px;
     min-width: 200px;
@@ -170,7 +170,7 @@
     min-height: 320px;
     max-height: 320px;
 }
-[class^="portrait-img-l"]{
+[class^="portrait-img"][class$="-l"], [class^="portrait-img-l-"]{
     width: 224px;
     height: 358px;
     min-width: 224px;
@@ -196,7 +196,7 @@
 [class^="carre-img"] img{
     max-width: 100%;
 }
-[class^="carre-img-s"]{
+[class^="carre-img"][class$="-s"], [class^="carre-img-s-"]{
     width: 168px;
     height: 168px;
     min-width: 168px;
@@ -204,7 +204,7 @@
     min-height: 168px;
     max-height: 168px;
 }
-[class^="carre-img-m"]{
+[class^="carre-img"][class$="-m"], [class^="carre-img-m-"]{
     width: 200px;
     height: 200px;
     min-width: 200px;
@@ -212,7 +212,7 @@
     min-height: 200px;
     max-height: 200px;
 }
-[class^="carre-img-l"]{
+[class^="carre-img"][class$="-l"], [class^="carre-img-l-"]{
     width: 250px;
     height: 250px;
     min-width: 250px;
