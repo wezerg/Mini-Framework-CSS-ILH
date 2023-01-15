@@ -270,11 +270,13 @@ dl.codebox dt{
 }
 /* Element quote */
 blockquote{
+    text-align: justify;
+}
+#phpbb blockquote{
     margin: 12px 44px;
     padding: 8px;
     background: unset;
     border: none;
-    text-align: justify;
     font-size: 13px;
 }
 blockquote blockquote{
@@ -296,6 +298,9 @@ blockquote cite{
     margin-bottom: 5px;
 }
 /* Element code */
+.codebox::after{
+    content: '';
+}
 dl.codebox code{
     border: 1px dashed var(--color-uno);
     padding: 10px 16px;

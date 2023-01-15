@@ -326,7 +326,7 @@
 }
 .admin-content-field-avatar img{
     width: 200px;
-    max-width: 200px;
+    max-width: 200px!important;
 }
 .admin-content-field-avatar div{
     position: absolute;
@@ -501,7 +501,6 @@
 /* Container Multi fiche liens & Navbar */
 .container-fiche-liens{
     position: relative;
-    display: table;
     margin-left: auto;
     margin-right: auto;
 }
@@ -643,7 +642,6 @@
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    min-width: 550px;
     width: 100%;
     max-width: 710px;
     min-height: 220px;
@@ -667,6 +665,7 @@
     display: flex;
     align-items: center;
     padding: 40px;
+    min-width: 470px;
 }
 .admin-meets-info > .rounded-img-m{
     margin-right: 28px;
@@ -688,6 +687,7 @@
 }
 .admin-meets-info-icon{
     height: 20px;
+    max-height: 20px;
     width: auto;
     filter: var(--filter-color-dos);
     margin-right: 4px;
@@ -698,6 +698,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 3px 16px;
+    min-width: 470px;
+}
+.admin-meets-message a{
+    color: var(--color-white)!important;
 }
 .admin-meets-message [class^="meets-icon"]:not(:last-child){
     margin-right: 4px;
