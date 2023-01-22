@@ -305,6 +305,7 @@ dl.codebox code{
     border: 1px dashed var(--color-uno);
     padding: 10px 16px;
     color: var(--color-text);
+    word-break: break-word;
 }
 /* Element spoiler */
 dl.codebox.spoiler .spoiler_title{
