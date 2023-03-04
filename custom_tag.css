@@ -132,7 +132,7 @@ k4{/* Texte, Police Bebas, Color Uno, Gras, Upper, Underline */
 fond1{/*Texte Upper, Color White, Fond Uno, Radius 20 */
     border-radius: 20px;
     text-transform: uppercase;
-    color: var(--color-bloc-1);
+    color: var(--color-lu);
     background-color: var(--color-uno);
     padding: 2px 13px;
     line-height: 23px;
@@ -140,7 +140,7 @@ fond1{/*Texte Upper, Color White, Fond Uno, Radius 20 */
 fond2{/*Texte Upper, Color White, Fond Dos, Radius 20 */
     border-radius: 20px;
     text-transform: uppercase;
-    color: var(--color-bloc-1);
+    color: var(--color-lu);
     background-color: var(--color-dos);
     padding: 2px 13px;
     line-height: 23px;
@@ -167,7 +167,7 @@ beauty{/* Fond Gradient, Texte Bebas, Color White */
 }
 gradiant{/* Fond Gradient, Texte Mulish, Color Bloc 1, Upper*/
     font-family: 'Mulish';
-    color: var(--color-bloc-1);
+    color: var(--color-lu);
     text-transform: uppercase;
     background: linear-gradient(90deg, var(--color-uno) 0%, var(--color-dos) 100%);
     padding: 2px 9px;
@@ -175,7 +175,7 @@ gradiant{/* Fond Gradient, Texte Mulish, Color Bloc 1, Upper*/
 }
 best1{/* Fond Uno, Texte Mulish, Color Bloc 1 Upper*/
     font-family: 'Mulish';
-    color: var(--color-bloc-1);
+    color: var(--color-lu);
     text-transform: uppercase;
     background: var(--color-uno);
     padding: 2px 9px;
@@ -183,7 +183,7 @@ best1{/* Fond Uno, Texte Mulish, Color Bloc 1 Upper*/
 }
 best2{/* Fond Dos, Texte Mulish, Color Bloc 1 Upper*/
     font-family: 'Mulish';
-    color: var(--color-bloc-1);
+    color: var(--color-lu);
     text-transform: uppercase;
     background: var(--color-dos);
     padding: 2px 9px;
