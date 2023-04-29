@@ -53,6 +53,11 @@ u{/* Underline Dos */
     text-decoration: underline;
     text-decoration-color: var(--color-dos);
 }
+c{/* Bloc de texte avec alignement */
+    display: inline-block;
+    margin:5px 10px 0px 40px;
+    font-size: 13px;
+}
 e1,e2{position: relative;z-index: 0;}
 e1::after{/* Underline Big Uno */
     content: '';
