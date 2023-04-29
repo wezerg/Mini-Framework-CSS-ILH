@@ -115,6 +115,14 @@
 [class^="rounded-img"] img{
     max-width: 100%;
 }
+[class^="rounded-img"][class$="-xs"], [class^="rounded-img-xs-"]{
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    max-width: 36px;
+    min-height: 36px;
+    max-height: 36px;
+}
 [class^="rounded-img"][class$="-s"], [class^="rounded-img-s-"]{
     width: 80px;
     height: 80px;
@@ -768,4 +776,144 @@
 }
 .admin-meets-profil-info-content .rounded-img-m{
     margin: 0 4px ;
+}
+
+/* Meets Web */
+.meets-profil, .meets-notif{
+    border-radius: 6px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0px 4px 4px rgba(var(--box-shadow-1));
+}
+/* Meets web header */
+[class^='meets-header']{
+    background: var(--color-uno);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--color-white);
+    padding: 16px;
+}
+[class^='meets-header'] > a{
+    color: var(--color-white)!important;
+}
+.meets-profil > [class^='meets-header']{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+}
+.meets-notif > [class^='meets-header']::before{
+    content: 'Nouvelle notification';
+    display: inline-block;
+    font-weight: 700;
+}
+.meets-notif > [class^='meets-header']::after{
+    content: '';
+    width: 14px;
+    height: 16px;
+    filter: invert(1);
+    background-image: url(https://images2.imgbox.com/4b/ef/r7rDzF0x_o.png);
+    background-size: 14px 16px;
+    background-repeat: no-repeat;
+    margin: 0 0 2px 8px;
+}
+/* Meets web body */
+.meets-body{
+    background: var(--color-bloc-3);
+}
+.meets-notif > .meets-body{
+    text-align: justify;
+}
+.meets-notif > .meets-body > *:not(.meets-info){
+    padding: 16px 36px 36px 36px;
+}
+/* Meets web info */
+.meets-info{
+    display: flex;
+    padding: 0 17px;
+}
+.meets-info > div[class^="rounded-img-"]{
+    margin-top: -26px;
+}
+.meets-info > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+.meets-info > div:nth-child(2) > span{
+    margin: 3px 0;
+}
+.meets-notif .meets-info > div:nth-child(2){
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 4px;
+}
+/* Meet web icon */
+[class^="m-icon-"]::before{
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-size: 12px 13px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+}
+[class="m-icon-place"]::before{
+    background-image: url(https://images2.imgbox.com/ff/da/xVZJjwfv_o.png);
+    filter: var(--filter-color-dos);
+}
+[class="m-icon-situation"]::before{
+    background-image: url(https://images2.imgbox.com/85/d6/ZWkeFtop_o.png);
+    filter: var(--filter-color-dos);
+}
+[class="m-icon-love"]::before{
+    background-image: url(https://images2.imgbox.com/2b/77/lEGydXBS_o.png);
+    filter: var(--filter-color-dos);
+}
+/* Meets web instagram */
+.meets-body > .img-insta, .meets-body > .img-post{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+.meets-body > .img-insta > img{
+    display: flex;
+    min-width: 30%;
+    flex: 30%;
+    background-color: var(--color-fond-forum);
+    max-height: 164px;
+    object-fit: cover;
+    object-position: center;
+    max-width: 164px !important;
+}
+.meets-body > .img-post > img{
+    display: flex;
+    min-width: 30%;
+    flex: 30%;
+    background-color: var(--color-fond-forum);
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+    max-width: 500px !important;
+}
+/* Meets web footer */
+.meets-footer{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+.meets-footer > div:nth-child(2) > p{
+    margin-bottom: 2px;
+}
+.meets-footer > div:nth-child(2) > span{
+    text-align: justify;
 }
