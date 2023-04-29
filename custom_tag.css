@@ -189,6 +189,12 @@ best2{/* Fond Dos, Texte Mulish, Color Bloc 1 Upper*/
     padding: 2px 9px;
     line-height: 23px;
 }
+uno{/* Color Uno */
+    color: var(--color-uno);
+}
+dos{/* Color Dos */
+    color: var(--color-dos);
+}
 /* Décoration Groupes */
 adams, dudley, kirkland, pfo, students, iwantit, love, fire, idwbya, darkrises{
     font-family: 'Mulish';
