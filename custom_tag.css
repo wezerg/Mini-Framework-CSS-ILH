@@ -365,11 +365,11 @@ kirkland a:link, kirkland a:visited, pfo a:link, pfo a:visited, students a:link,
 love a:visited, fire a:link, fire a:visited, idwbya a:link, idwbya a:visited, darkrises a:link, darkrises a:visited, title1 a:link, title1 a:visited, 
 title2 a:link, title2 a:visited, title3 a:link, title3 a:visited, title4 a:link, title4 a:visited, title5 a:link, title5 a:visited, title6 a:link, 
 title6 a:visited, title7 a:link, title7 a:visited{
-    color: currentColor;
+    color: currentColor!important;
 }
 w a:hover, x a:hover, j a:hover, k a:hover, l a:hover, m a:hover, n a:hover, u a:hover, e1 a:hover, e2 a:hover, r1 a:hover, r2 a:hover, 
 r3 a:hover, k1 a:hover, k2 a:hover, k3 a:hover, k4 a:hover, fond1 a:hover, fond2 a:hover, up1 a:hover, beauty a:hover, gradiant a:hover, best1 a:hover, 
 best2 a:hover, uno a:hover, dos a:hover, adams a:hover, dudley a:hover, kirkland a:hover, pfo a:hover, students a:hover, iwantit a:hover, love a:hover, fire a:hover, idwbya a:hover, 
 darkrises a:hover, title1 a:hover, title2 a:hover, title3 a:hover, title4 a:hover, title5 a:hover, title6 a:hover, title7 a:hover{
-    color: currentColor;
+    color: currentColor!important;
 }
