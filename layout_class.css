@@ -849,13 +849,14 @@
 }
 .meets-notif .meets-info > div:nth-child(2){
     font-family: 'Bebas Neue';
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
     gap: 4px;
+    flex-wrap: wrap;
 }
 /* Meet web icon */
 [class^="m-icon-"]::before{
