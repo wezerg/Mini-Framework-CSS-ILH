@@ -1,41 +1,93 @@
 
+/* Change colors and opacity */
 /* Color */
 .bg-uno{background-color: var(--color-uno)!important}
-.bg-uno-light{background-color: rgba(var(--rgb-uno), 0.8);}
+.bg-uno-light{background-color: rgba(var(--rgb-uno), 0.4);}
+.bg-uno-supalight{background-color: rgba(var(--rgb-uno), 0.2);}
 .c-uno{color: var(--color-uno)!important}
-.c-uno-light{color: rgba(var(--rgb-uno), 0.8);}
+.c-uno-light{color: rgba(var(--rgb-uno), 0.4);}
+.c-uno-supalight{color: rgba(var(--rgb-uno), 0.2);}
 .bg-dos{background-color: var(--color-dos)!important}
-.bg-dos-light{background-color: rgba(var(--rgb-dos), 0.8);}
+.bg-dos-light{background-color: rgba(var(--rgb-dos), 0.4);}
+.bg-dos-supalight{background-color: rgba(var(--rgb-dos), 0.2);}
 .c-dos{color: var(--color-dos)!important}
-.c-dos-light{color: rgba(var(--rgb-dos), 0.8);}
-.bg-lu{background-color: var(--color-lu)!important}
-.c-lu{color: var(--color-lu)!important}
+.c-dos-light{color: rgba(var(--rgb-dos), 0.4);}
+.c-dos-supalight{color: rgba(var(--rgb-dos), 0.2);}
 .bg-text{background-color: var(--color-text)!important}
 .c-text{color: var(--color-text)!important}
-.bg-fond-forum{background-color: var(--color-fond-forum)!important}
-.c-fond-forum{color: var(--color-fond-forum)!important}
+.bg-text-medium{background-color: var(--color-text-medium)!important}
+.c-text-medium{color: var(--color-text-medium)!important}
+.bg-text-light{background-color: var(--color-text-light)!important}
+.c-text-light{color: var(--color-text-light)!important}
+.bg-text-supalight{background-color: var(--color-text-supalight)!important}
+.c-text-supalight{color: var(--color-text-supalight)!important}
 .bg-bloc-1{background-color: var(--color-bloc-1)!important}
 .c-bloc-1{color: var(--color-bloc-1)!important}
 .bg-bloc-2{background-color: var(--color-bloc-2)!important}
 .c-bloc-2{color: var(--color-bloc-2)!important}
 .bg-bloc-3{background-color: var(--color-bloc-3)!important}
 .c-bloc-3{color: var(--color-bloc-3)!important}
-.bg-sous-ligne{background-color: var(--color-sous-ligne)!important}
-.c-sous-ligne{color: var(--color-sous-ligne)!important}
+.bg-fond{background-color: var(--color-fond)!important}
+.c-fond{color: var(--color-fond)!important}
+.bg-sidebar{background-color: var(--color-sidebar)!important}
+.c-sidebar{color: var(--color-sidebar)!important}
 .bg-white{background-color: var(--color-white)!important}
 .c-white{color: var(--color-white)!important}
+.bg-buttons{background-color: var(--color-buttons)!important}
+.c-buttons{color: var(--color-buttons)!important}
+
+
+/* 
+.bg-lu{background-color: var(--color-lu)!important}
+.c-lu{color: var(--color-lu)!important}
+.bg-sous-ligne{background-color: var(--color-sous-ligne)!important}
+.c-sous-ligne{color: var(--color-sous-ligne)!important}
 .img-filter-uno{filter: var(--filter-color-uno)!important}
 .img-filter-dos{filter: var(--filter-color-dos)!important}
-.img-filter-fond-forum{filter: var(--filter-fond-forum)!important}
+.img-filter-fond-forum{filter: var(--filter-fond-forum)!important} */
+
 /* Border */
+/* TODO => Keep just 2 and 5 for Border radius */
 .br-0{border-radius: 0!important}
+.br-2{border-radius: 5px!important}
 .br-5{border-radius: 5px!important}
-.br-8{border-radius: 8px!important}
-.br-10{border-radius: 10px!important}
-.br-20{border-radius: 20px!important}
 .br-50{border-radius: 50%!important}
+
+
+/* .br-8{border-radius: 8px!important}
+.br-10{border-radius: 10px!important}
+.br-20{border-radius: 20px!important} */
+
+
+
 /* Text */
-.text-xl-mulish, .text-xl-mulish *{
+.text-xl, .text-xl *{
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 22px;
+}
+.text-l, .text-l *{
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 20px;
+}
+.text-m, .text-m *{
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 18px;
+}
+.text-s, .text-s *{
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 16px;
+}
+.text-xs, .text-xs *{
+    font-family: 'Poppins';
+    font-size: 11px;
+    line-height: 13px;
+}
+
+/* .text-xl-mulish, .text-xl-mulish *{
     font-family: 'Mulish';
     font-size: 30px;
     line-height: 38px;
@@ -101,7 +153,7 @@
     font-family: 'Abril Fatface';
     font-size: 15px;
     line-height: 19px;
-}
+} */
 .text-upper{text-transform: uppercase;}
 .text-bold{font-weight: 700;}
 /* Display */
@@ -180,9 +232,9 @@
 /* Input, Select, textarea, label Lien */
 input:not([type="checkbox"]):not([type="radio"]), select{
     height: 32px;
-    border-radius: 8px;
-    font-family: 'Mulish';
-    font-size: 13px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-size: 14px;
     line-height: 16px;
     color: var(--color-text);
     border: none;
@@ -191,8 +243,8 @@ input:not([type="checkbox"]):not([type="radio"]), select{
     box-shadow: 0px 2px 3px rgba(184, 180, 180, 0.25);
 }
 input::placeholder{
-    font-family: 'Mulish';
-    font-size: 13px;
+    font-family: 'Poppins';
+    font-size: 14px;
     line-height: 16px;
     color: var(--color-text);
 }
@@ -203,8 +255,8 @@ input[type="submit"], input[type="reset"], input[type="button"]{
     padding: 4px 8px!important;
     background: var(--color-uno);
     border: 1px solid var(--color-uno);
-    font-family: 'Mulish'!important;
-    font-size: 13px!important;
+    font-family: 'Poppins'!important;
+    font-size: 14px!important;
     line-height: 16px;
     color: var(--color-white)!important;
 }
@@ -229,22 +281,22 @@ input.button1:focus, input.button2:focus{
 }
 textarea{
     border-radius: 5px;
-    font-family: 'Mulish';
-    font-size: 13px;
+    font-family: 'Poppins';
+    font-size: 14px;
     line-height: 16px;
     color: var(--color-text);
     padding: 8px;
     resize: none;
 }
 #mpage-body-modern input, #mpage-body-modern textarea {
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 dd label{
     color: var(--color-text);
 }
 label{
-    font-family: 'Mulish';
-    font-size: 13px;
+    font-family: 'Poppins';
+    font-size: 14px;
     line-height: 16px;
     color: var(--color-text);
 }
@@ -259,10 +311,10 @@ a:hover, a:hover > *{
 /* General for element quote, code, etc... */
 dl.codebox{
     background-color: unset;
-    font-family: 'Mulish';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 16px;
     text-align: justify;
     border: none;
@@ -280,7 +332,7 @@ blockquote{
     padding: 8px;
     background: unset;
     border: none;
-    font-size: 13px;
+    font-size: 14px;
 }
 blockquote blockquote{
     background-color: unset;
@@ -294,10 +346,10 @@ blockquote div{
 blockquote cite{
     color: var(--color-uno);
     text-transform: uppercase;
-    font-family: 'Mulish';
+    font-family: 'Poppins';
     font-weight: 700;
-    font-size: 13px;
-    line-height: 14px;
+    font-size: 14px;
+    line-height: 16px;
     margin-bottom: 5px;
 }
 /* Element code */
@@ -344,14 +396,14 @@ body#phpbb .row1, body#phpbb .row2, body#phpbb .row3{
     display: none!important;
 }
 h1.page-title{
-    font-family: 'Abril Fatface';
+    font-family: 'Poppins';
     font-size: 32px;
     line-height: 43px;
     color: var(--color-text);
 }
 table.table1 *{
-    font-family: 'Mulish';
-    font-size: 13px;
+    font-family: 'Poppins';
+    font-size: 14px;
     line-height: 16px;
 }
 form[action="/search?search_id=watchsearch"] table.table1 tbody tr td:first-child, form[action="/search?search_id=watchsearch"] table.table1 thead tr th:first-child{
@@ -366,33 +418,33 @@ table.table1 tbody td{
 table.forumline{
     background: var(--color-bloc-1);
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 table.forumline th.thCornerL, table th.thTop, table th.thCornerR{
-    background-color: rgba(var(--rgb-dos), 0.8);
+    background-color: rgba(var(--rgb-dos), 0.4);
 }
 table.forumline td.catHead{
-    font-family: 'Abril Fatface';
-    font-size: 24px;
+    font-family: 'Poppins';
+    font-size: 20px;
     line-height: 36px;
     color: var(--color-text);
 }
 body#phpbb h3, body#phpbb .h3, body#phpbb .content h2, body#phpbb .panel h2, body#phpbb .content h2.h3, body#phpbb .panel h2.h3{
     color: var(--color-text);
     border: none;
-    font-family: 'Abril Fatface';
-    font-size: 15px;
+    font-family: 'Poppins';
+    font-size: 14px;
     line-height: 19px;
 }
 a.button1, input.button1, a.button2, input.button2, button.button2, .external-module .external-more a{
     padding: 4px 8px!important;
     background: var(--color-uno);
     border: 1px solid var(--color-uno)!important;
-    font-family: 'Mulish'!important;
-    font-size: 13px!important;
+    font-family: 'Poppins'!important;
+    font-size: 14px!important;
     line-height: 16px;
     color: var(--color-white)!important;
-    border-radius: 8px;
+    border-radius: 5px;
     box-sizing: border-box;
     box-shadow: 0px 2px 3px rgba(184, 180, 180, 25%);
 }
