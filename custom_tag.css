@@ -1,46 +1,46 @@
 /* Textes */
-w{/* Texte, Police Mulish, Color Uno, Gras */
-    font-family: 'Mulish';
+w{/* Texte, Police Poppins, Color Uno, Gras */
+    font-family: 'Poppins';
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 16px;
     color: var(--color-uno);
 }
-x{/* Texte, Police Mulish, Color Dos, Gras */
-    font-family: 'Mulish';
+x{/* Texte, Police Poppins, Color Dos, Gras */
+    font-family: 'Poppins';
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 16px;
     color: var(--color-dos);
 }
-j{/* Texte, Police Mulish, Color Uno, Italique */
-    font-family: 'Mulish';
+j{/* Texte, Police Poppins, Color Uno, Italique */
+    font-family: 'Poppins';
     font-style: italic;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 16px;
     color: var(--color-uno);
 }
-k{/* Texte, Police Mulish, Color Dos, Italique */
-    font-family: 'Mulish';
+k{/* Texte, Police Poppins, Color Dos, Italique */
+    font-family: 'Poppins';
     font-style: italic;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 16px;
     color: var(--color-dos);
 }
-l{/* Texte, Police Mulish, Color Uno, Gras, Upper */
-    font-family: 'Mulish';
+l{/* Texte, Police Poppins, Color Uno, Gras, Upper */
+    font-family: 'Poppins';
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
     color: var(--color-uno);
 }
-m{/* Texte, Police Mulish, Color Dos, Gras, Upper */
-    font-family: 'Mulish';
+m{/* Texte, Police Poppins, Color Dos, Gras, Upper */
+    font-family: 'Poppins';
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
     color: var(--color-dos);
@@ -56,7 +56,7 @@ u{/* Underline Dos */
 c{/* Bloc de texte avec alignement */
     display: inline-block;
     margin:5px 10px 0px 40px;
-    font-size: 13px;
+    font-size: 14px;
 }
 e1,e2{position: relative;z-index: 0;}
 e1::after{/* Underline Big Uno */
@@ -79,56 +79,56 @@ e2::after{/* Underline Big Dos */
     bottom: 1px;
     left: 0;
 }
-r1{/* Texte, Police Abril, Color Uno */
-    font-family: 'Abril Fatface';
+r1{/* Texte, Police Poppins, Color Uno */
+    font-family: 'Poppins';
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 18px;
     color: var(--color-uno);
 }
-r2{/* Texte, Police Abril, Color Dos */
-    font-family: 'Abril Fatface';
+r2{/* Texte, Police Poppins, Color Dos */
+    font-family: 'Poppins';
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 18px;
     color: var(--color-dos);
 }
-r3{/* Texte, Police Abril, Color Text */
-    font-family: 'Abril Fatface';
+r3{/* Texte, Police Poppins, Color Text */
+    font-family: 'Poppins';
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 18px;
     color: var(--color-text);
 }
-k1{/* Texte, Police Bebas, Color Dos, Gras, Upper */
-    font-family: 'Bebas Neue';
+k1{/* Texte, Police Poppins, Color Dos, Gras, Upper */
+    font-family: 'Poppins';
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 13px;
     text-transform: uppercase;
     color: var(--color-dos);
 }
-k2{/* Texte, Police Bebas, Color Uno, Gras, Upper */
-    font-family: 'Bebas Neue';
+k2{/* Texte, Police Poppins, Color Uno, Gras, Upper */
+    font-family: 'Poppins';
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 13px;
     text-transform: uppercase;
     color: var(--color-uno);
 }
-k3{/* Texte, Police Bebas, Color Dos, Gras, Upper, Underline */
-    font-family: 'Bebas Neue';
+k3{/* Texte, Police Poppins, Color Dos, Gras, Upper, Underline */
+    font-family: 'Poppins';
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 13px;
     text-transform: uppercase;
     text-decoration: underline;
     color: var(--color-dos);
 }
-k4{/* Texte, Police Bebas, Color Uno, Gras, Upper, Underline */
-    font-family: 'Bebas Neue';
+k4{/* Texte, Police Poppins, Color Uno, Gras, Upper, Underline */
+    font-family: 'Poppins';
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 13px;
     text-transform: uppercase;
     text-decoration: underline;
@@ -137,7 +137,7 @@ k4{/* Texte, Police Bebas, Color Uno, Gras, Upper, Underline */
 fond1{/*Texte Upper, Color White, Fond Uno, Radius 20 */
     border-radius: 20px;
     text-transform: uppercase;
-    color: var(--color-lu);
+    color: var(--color-text);
     background-color: var(--color-uno);
     padding: 2px 13px;
     line-height: 23px;
@@ -145,14 +145,14 @@ fond1{/*Texte Upper, Color White, Fond Uno, Radius 20 */
 fond2{/*Texte Upper, Color White, Fond Dos, Radius 20 */
     border-radius: 20px;
     text-transform: uppercase;
-    color: var(--color-lu);
+    color: var(--color-text);
     background-color: var(--color-dos);
     padding: 2px 13px;
     line-height: 23px;
 }
 up1{/* Texte, Border Gradient, Gras */
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 23px;
     text-transform: uppercase;
     border-width: 2px;
@@ -160,8 +160,8 @@ up1{/* Texte, Border Gradient, Gras */
     padding: 1px 5px;
     border-image: linear-gradient(to bottom, var(--color-uno), var(--color-dos)) 1;
 }
-beauty{/* Fond Gradient, Texte Bebas, Color White */
-    font-family: 'Bebas Neue';
+beauty{/* Fond Gradient, Texte Poppins, Color White */
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 20px;
     line-height: 31px;
@@ -170,25 +170,25 @@ beauty{/* Fond Gradient, Texte Bebas, Color White */
     background: linear-gradient(180deg, var(--color-uno) 0%, var(--color-dos) 100%);
     padding: 2px 15px;
 }
-gradiant{/* Fond Gradient, Texte Mulish, Color Bloc 1, Upper*/
-    font-family: 'Mulish';
-    color: var(--color-lu);
+gradiant{/* Fond Gradient, Texte Poppins, Color Bloc 1, Upper*/
+    font-family: 'Poppins';
+    color: var(--color-text);
     text-transform: uppercase;
     background: linear-gradient(90deg, var(--color-uno) 0%, var(--color-dos) 100%);
     padding: 2px 9px;
     line-height: 23px;
 }
-best1{/* Fond Uno, Texte Mulish, Color Bloc 1 Upper*/
-    font-family: 'Mulish';
-    color: var(--color-lu);
+best1{/* Fond Uno, Texte Poppins, Color Bloc 1 Upper*/
+    font-family: 'Poppins';
+    color: var(--color-text);
     text-transform: uppercase;
     background: var(--color-uno);
     padding: 2px 9px;
     line-height: 23px;
 }
-best2{/* Fond Dos, Texte Mulish, Color Bloc 1 Upper*/
-    font-family: 'Mulish';
-    color: var(--color-lu);
+best2{/* Fond Dos, Texte Poppins, Color Bloc 1 Upper*/
+    font-family: 'Poppins';
+    color: var(--color-text);
     text-transform: uppercase;
     background: var(--color-dos);
     padding: 2px 9px;
@@ -202,9 +202,9 @@ dos{/* Color Dos */
 }
 /* Décoration Groupes */
 adams, dudley, kirkland, pfo, students, iwantit, love, fire, idwbya, darkrises{
-    font-family: 'Mulish';
+    font-family: 'Poppins';
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 16px;
 }
 adams{
@@ -243,8 +243,8 @@ title1, title2, title3, title4, title5, title6, title7{ /* Setup Title */
     box-sizing: border-box;
     text-align: center;
 }
-title1{ /* Title Abril, Color Gradient */
-    font-family: 'Abril Fatface';
+title1{ /* Title Poppins, Color Gradient */
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 32px;
     line-height: 43px;
@@ -253,8 +253,8 @@ title1{ /* Title Abril, Color Gradient */
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-title2{/* Title Bebas, Color Dos, Border Dos Bottom, Circle Right */
-    font-family: 'Bebas Neue';
+title2{/* Title Poppins, Color Dos, Border Dos Bottom, Circle Right */
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
@@ -274,8 +274,8 @@ title2::after{
     bottom: -9px;
     right: -5px;
 }
-title3{/* Title Bebas, Color Uno, Border Uno Bottom, Circle Right */
-    font-family: 'Bebas Neue';
+title3{/* Title Poppins, Color Uno, Border Uno Bottom, Circle Right */
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
@@ -295,8 +295,8 @@ title3::after{
     bottom: -9px;
     right: -5px;
 }
-title4{/* Title Bebas, Color Uno, Underline Uno */
-    font-family: 'Bebas Neue';
+title4{/* Title Poppins, Color Uno, Underline Uno */
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
@@ -314,8 +314,8 @@ title4::before{
     bottom: 5px;
     left: 10px;
 }
-title5{/* Title Bebas, Color Dos, Underline Dos */
-    font-family: 'Bebas Neue';
+title5{/* Title Poppins, Color Dos, Underline Dos */
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
@@ -333,8 +333,8 @@ title5::before{
     bottom: 5px;
     left: 10px;
 }
-title6{/* Title Bebas, Color Bloc 1, Background Uno */
-    font-family: 'Bebas Neue';
+title6{/* Title Poppins, Color Bloc 1, Background Uno */
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -344,8 +344,8 @@ title6{/* Title Bebas, Color Bloc 1, Background Uno */
     color: var(--color-bloc-1);
     background-color: var(--color-uno);
 }
-title7{/* Title Bebas, Color Bloc 1, Background Dos */
-    font-family: 'Bebas Neue';
+title7{/* Title Poppins, Color Bloc 1, Background Dos */
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
