@@ -16,7 +16,7 @@
     margin-bottom: 16px;
 }
 .bloc-text{ /* Bloc text bg fond forum */
-    background-color: var(--color-fond-forum);
+    background-color: var(--color-fond);
     border-left: 2px solid var(--color-dos);
     text-align: justify;
     box-sizing: border-box;
@@ -276,7 +276,7 @@
     box-sizing: border-box;
     color: var(--color-white);
     background: linear-gradient(180deg, var(--color-uno) 0%, var(--color-dos) 100%);
-    font-family: 'Abril Fatface';
+    font-family: 'Poppins';
     font-size: 32px;
     line-height: 43px;
     width: 72px;
@@ -306,7 +306,7 @@
 .aside-hover > div{
     display: none;
     position: absolute;
-    background-color: var(--color-fond-forum);
+    background-color: var(--color-fond);
     top: 0;
     left: 45px;
     border-radius: 0 20px;
@@ -531,15 +531,12 @@
 [class^="card-user-bottin"]{
     width: 200px;
     box-sizing: border-box;
-    background: var(--color-fond-forum);
+    background: var(--color-fond);
     padding: 16px;
     border-radius: 5px;
     margin-bottom: 16px;
     position: relative;
     border-left: 3px solid var(--color-bloc-2);
-}
-[class^="card-user-bottin"] [class*="bebas"]{
-    font-weight: 400;
 }
 [class^="card-user-bottin"] *{
     display: block;
@@ -556,7 +553,7 @@
     left: 0;
     padding: 16px;
     text-align: center;
-    background: var(--color-fond-forum);
+    background: var(--color-fond);
     opacity: 0.8;
     display: none;
     z-index: 1;
@@ -766,7 +763,7 @@
     border-radius: 20px 20px 0 0;
 }
 .admin-meets-profil-info-content{
-    background: var(--color-fond-forum);
+    background: var(--color-fond);
     border-radius: 0 0 20px 20px;
     border: 1px solid var(--color-uno);
     padding: 8px 24px;
@@ -803,7 +800,7 @@
 }
 .meets-profil > [class^='meets-header']{
     text-transform: uppercase;
-    font-family: 'Bebas Neue';
+    font-family: 'Poppins';
     font-size: 20px;
 }
 .meets-notif > [class^='meets-header']::before{
@@ -848,7 +845,7 @@
     margin: 3px 0;
 }
 .meets-notif .meets-info > div:nth-child(2){
-    font-family: 'Bebas Neue';
+    font-family: 'Poppins';
     font-size: 18px;
     display: flex;
     flex-direction: row;
@@ -890,7 +887,7 @@
     display: flex;
     min-width: 30%;
     flex: 30%;
-    background-color: var(--color-fond-forum);
+    background-color: var(--color-fond);
     max-height: 164px;
     object-fit: cover;
     object-position: center;
@@ -900,7 +897,7 @@
     display: flex;
     min-width: 30%;
     flex: 30%;
-    background-color: var(--color-fond-forum);
+    background-color: var(--color-fond);
     max-height: 500px;
     object-fit: cover;
     object-position: center;
