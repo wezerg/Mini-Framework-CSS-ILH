@@ -457,13 +457,13 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, butt
     background-color: var(--color-bloc-2);
     border: 1px solid var(--color-bloc-2);
     color: var(--color-white);
-    font-size: 14px;
+    font-size: 11px;
 }
 .pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active{
     color: var(--color-text);
     background-color: var(--color-bloc-1);
     border: 1px solid var(--color-bloc-1);
-    font-size: 14px;
+    font-size: 11px;
 }
 .pagination span a:hover {
     background-color: var(--color-bloc-2);
