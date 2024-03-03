@@ -407,6 +407,10 @@ table.table1 *{
     font-size: 14px;
     line-height: 16px;
 }
+table.table1 td{
+    color: var(--color-text);
+    font-size: 14px;
+}
 form[action="/search?search_id=watchsearch"] table.table1 tbody tr td:first-child, form[action="/search?search_id=watchsearch"] table.table1 thead tr th:first-child{
     display: none;
 }
@@ -479,6 +483,33 @@ table.table1 tbody tr:hover, table.table1 tbody tr.hover {
     background-color: unset;
     color: currentColor;
 }
+#cp-main h1{
+    color: var(--color-text);
+    text-align: center;
+    font-weight: 700;
+}
+
+#cp-main .panel{
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+#cp-main table.table1 thead th{
+    text-transform: unset;
+    border: unset;
+    text-align: center;
+    color: var(--color-text);
+}
+
+#cp-main .panel p.right-box{
+    margin: 16px 0 8px;
+}
+#cp-main fieldset.submit-buttons{
+    display: flex;
+    gap: 8px;
+    margin: 8px 0;
+}
+
 /* Mobile */
 body#mpage-body-modern .search-topic-category span{
     color: white;
