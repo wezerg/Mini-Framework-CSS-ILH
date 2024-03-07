@@ -1,375 +1,243 @@
 /* Textes */
-w{/* Texte, Police Poppins, Color Uno, Gras */
-    font-family: 'Poppins';
+
+b{/* Color uno, Bold */
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
     color: var(--color-uno);
 }
-x{/* Texte, Police Poppins, Color Dos, Gras */
-    font-family: 'Poppins';
+b2{/* Color dos, Bold */
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
     color: var(--color-dos);
 }
-j{/* Texte, Police Poppins, Color Uno, Italique */
-    font-family: 'Poppins';
+b3{/* Color Text, Bold */
+    font-weight: 700;
+    color: var(--color-text);
+}
+i{/* Color uno, Italic */
     font-style: italic;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
     color: var(--color-uno);
 }
-k{/* Texte, Police Poppins, Color Dos, Italique */
-    font-family: 'Poppins';
+i2{/* Color dos, Italic */
     font-style: italic;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
     color: var(--color-dos);
 }
-l{/* Texte, Police Poppins, Color Uno, Gras, Upper */
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+m{/* Color uno, Bold, Uppercase */
     text-transform: uppercase;
+    font-weight: 700;
     color: var(--color-uno);
 }
-m{/* Texte, Police Poppins, Color Dos, Gras, Upper */
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+m2{/* Color dos, Bold, Uppercase */
     text-transform: uppercase;
+    font-weight: 700;
     color: var(--color-dos);
 }
-n{/* Underline Uno */
+u{/* Underline color uno */
     text-decoration: underline;
     text-decoration-color: var(--color-uno);
+    text-decoration-thickness: 2px;
 }
-u{/* Underline Dos */
+u2{/* Underline color dos */
     text-decoration: underline;
     text-decoration-color: var(--color-dos);
+    text-decoration-thickness: 2px;
 }
-c{/* Bloc de texte avec alignement */
-    display: inline-block;
-    margin:5px 10px 0px 40px;
-    font-size: 14px;
-}
-e1,e2{position: relative;z-index: 0;}
-e1::after{/* Underline Big Uno */
-    content: '';
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 4px;
-    background-color: rgba(var(--rgb-uno), 0.8);
-    bottom: 1px;
-    left: 0;
-}
-e2::after{/* Underline Big Dos */
-    content: '';
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 4px;
-    background-color: rgba(var(--rgb-dos), 0.8);
-    bottom: 1px;
-    left: 0;
-}
-r1{/* Texte, Police Poppins, Color Uno */
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    color: var(--color-uno);
-}
-r2{/* Texte, Police Poppins, Color Dos */
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    color: var(--color-dos);
-}
-r3{/* Texte, Police Poppins, Color Text */
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    color: var(--color-text);
-}
-k1{/* Texte, Police Poppins, Color Dos, Gras, Upper */
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 13px;
-    text-transform: uppercase;
-    color: var(--color-dos);
-}
-k2{/* Texte, Police Poppins, Color Uno, Gras, Upper */
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 13px;
-    text-transform: uppercase;
-    color: var(--color-uno);
-}
-k3{/* Texte, Police Poppins, Color Dos, Gras, Upper, Underline */
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 13px;
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: var(--color-dos);
-}
-k4{/* Texte, Police Poppins, Color Uno, Gras, Upper, Underline */
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 13px;
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: var(--color-uno);
-}
-fond1{/*Texte Upper, Color White, Fond Uno, Radius 20 */
-    border-radius: 20px;
-    text-transform: uppercase;
-    color: var(--color-text);
-    background-color: var(--color-uno);
-    padding: 2px 13px;
-    line-height: 23px;
-}
-fond2{/*Texte Upper, Color White, Fond Dos, Radius 20 */
-    border-radius: 20px;
-    text-transform: uppercase;
-    color: var(--color-text);
-    background-color: var(--color-dos);
-    padding: 2px 13px;
-    line-height: 23px;
-}
-up1{/* Texte, Border Gradient, Gras */
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 23px;
-    text-transform: uppercase;
-    border-width: 2px;
-    border-style: solid;
-    padding: 1px 5px;
-    border-image: linear-gradient(to bottom, var(--color-uno), var(--color-dos)) 1;
-}
-beauty{/* Fond Gradient, Texte Poppins, Color White */
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 31px;
-    border-radius: 20px;
+bg{/* Color white, Background uno, Bold, Uppercase */
     color: var(--color-white);
-    background: linear-gradient(180deg, var(--color-uno) 0%, var(--color-dos) 100%);
-    padding: 2px 15px;
-}
-gradiant{/* Fond Gradient, Texte Poppins, Color Bloc 1, Upper*/
-    font-family: 'Poppins';
-    color: var(--color-text);
-    text-transform: uppercase;
-    background: linear-gradient(90deg, var(--color-uno) 0%, var(--color-dos) 100%);
-    padding: 2px 9px;
-    line-height: 23px;
-}
-best1{/* Fond Uno, Texte Poppins, Color Bloc 1 Upper*/
-    font-family: 'Poppins';
-    color: var(--color-text);
-    text-transform: uppercase;
     background: var(--color-uno);
-    padding: 2px 9px;
-    line-height: 23px;
-}
-best2{/* Fond Dos, Texte Poppins, Color Bloc 1 Upper*/
-    font-family: 'Poppins';
-    color: var(--color-text);
-    text-transform: uppercase;
-    background: var(--color-dos);
-    padding: 2px 9px;
-    line-height: 23px;
-}
-uno{/* Color Uno */
-    color: var(--color-uno);
-}
-dos{/* Color Dos */
-    color: var(--color-dos);
-}
-/* Décoration Groupes */
-adams, dudley, kirkland, pfo, students, iwantit, love, fire, idwbya, darkrises{
-    font-family: 'Poppins';
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0 8px;
 }
-adams{
-    color: #00B0F0;
+bg2{/* Color white, Background dos, Bold, Uppercase */
+    color: var(--color-white);
+    background: var(--color-dos);
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0 8px;
 }
-dudley{
-    color: #E80065;
+gradient{/* Color white, Background gradient, Bold, Uppercase */
+    color: var(--color-white);
+    background: linear-gradient(90deg, var(--color-uno) 0%, var(--color-dos) 100%);
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0 8px;
 }
-kirkland{
-    color: #626CC7;
+opacity{/* Color uno, Background uno light, Bold, Uppercase */
+    color: var(--color-uno);
+    background: rgba(var(--rgb-uno), 0.2);
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0 8px;
 }
-pfo{
-    color: #D19E07;
+opacity2{/* Color dos, Background dos light, Bold, Uppercase */
+    color: var(--color-dos);
+    background: rgba(var(--rgb-dos), 0.2);
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0 8px;
 }
-students{
-    color: #B86F5D;
+outline{/* Color uno, Border uno, Bold, Uppercase */
+    color: var(--color-uno);
+    border: 1px solid var(--color-uno);
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0 8px;
 }
-iwantit{
-    color: #38A33F;
+outline2{/* Color dos, Border dos, Bold, Uppercase */
+    color: var(--color-dos);
+    border: 1px solid var(--color-dos);
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0 8px;
 }
-love{
-    color: #AB2037;
+outline3{/* Color uno, Border uno, Bold, Uppercase */
+    color: var(--color-text);
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, var(--color-uno), var(--color-dos)) 1;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0 8px;
 }
-fire{
-    color: #E38846;
-}
-idwbya{
-    color: #008796;
-}
-darkrises{
-    color: #70A3C7;
-}
+
 /* Titles */
-title1, title2, title3, title4, title5, title6, title7{ /* Setup Title */
+
+title, title1, title2, title3, title4, title5, title6{ /* Setup Title */
     display: block;
     box-sizing: border-box;
+}
+title{ /* Color white, Bg uno, Align center, Size 18, Bold */
+    color: var(--color-white);
+    background: var(--color-uno);
+    border-radius: 5px;
     text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 3px 10px;
 }
-title1{ /* Title Poppins, Color Gradient */
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 43px;
-    background: linear-gradient(180deg, var(--color-uno) 0%, var(--color-dos) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+title1{ /* Color white, Bg dos, Align center, Size 18, Bold */
+    color: var(--color-white);
+    background: var(--color-dos);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 3px 10px;
 }
-title2{/* Title Poppins, Color Dos, Border Dos Bottom, Circle Right */
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 30px;
-    color: var(--color-dos);
-    border-bottom: 3px solid var(--color-dos);
-    margin: 0 15px 15px;
-    position: relative;
+title2{ /* Color white, Bg uno, Align start, Size 14, Bold, Uppercase */
+    color: var(--color-white);
+    background: var(--color-uno);
+    border-radius: 5px;
+    text-align: start;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 6px 10px;
 }
-title2::after{
-    content: '';
-    position: absolute;
-    display: block;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: var(--color-dos);
-    bottom: -9px;
-    right: -5px;
+title3{ /* Color white, Bg dos, Align start, Size 14, Bold, Uppercase */
+    color: var(--color-white);
+    background: var(--color-dos);
+    border-radius: 5px;
+    text-align: start;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 6px 10px;
 }
-title3{/* Title Poppins, Color Uno, Border Uno Bottom, Circle Right */
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 30px;
+title4{ /* Color text, Align center, Size 14, Bold, Uppercase, Border text-supalight */
+    color: var(--color-text);
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 8px 10px;
+    border-bottom: 3px solid var(--color-text-supalight);
+}
+title5{ /* Color text, Align start, Size 14, Bold, Uppercase, Border text-supalight */
+    color: var(--color-text);
+    text-align: start;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 8px 10px;
+    border-bottom: 3px solid var(--color-text-supalight);
+}
+title6{ /* Color uno, Align center, Size 22, Bold, Uppercase */
     color: var(--color-uno);
-    border-bottom: 3px solid var(--color-uno);
-    margin: 0 15px 15px;
-    position: relative;
-}
-title3::after{
-    content: '';
-    position: absolute;
-    display: block;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: var(--color-uno);
-    bottom: -9px;
-    right: -5px;
-}
-title4{/* Title Poppins, Color Uno, Underline Uno */
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 30px;
-    color: var(--color-uno);
-    position: relative;
-}
-title4::before{
-    content: '';
-    position: absolute;
-    display: block;
-    width: calc(100% - 20px);
-    height: 5px;
-    background-color: var(--color-uno);
-    filter: opacity(0.5);
-    bottom: 5px;
-    left: 10px;
-}
-title5{/* Title Poppins, Color Dos, Underline Dos */
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 30px;
-    color: var(--color-dos);
-    position: relative;
-}
-title5::before{
-    content: '';
-    position: absolute;
-    display: block;
-    width: calc(100% - 20px);
-    height: 5px;
-    background-color: var(--color-dos);
-    filter: opacity(0.5);
-    bottom: 5px;
-    left: 10px;
-}
-title6{/* Title Poppins, Color Bloc 1, Background Uno */
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 22px;
     line-height: 24px;
-    border-radius: 20px;
-    padding: 5px 0;
-    margin: 0 10px;
-    color: var(--color-bloc-1);
-    background-color: var(--color-uno);
+    padding: 8px 10px;
+    position: relative;
 }
-title7{/* Title Poppins, Color Bloc 1, Background Dos */
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    border-radius: 20px;
-    padding: 5px 0;
-    margin: 0 10px;
-    color: var(--color-bloc-1);
-    background-color: var(--color-dos);
+title6::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: rgba(var(--rgb-uno), 0.4);
+    bottom: 50%;
+    transform: translateY(calc(-50% + 5px));
+    left: 0;
 }
+
+/* Groupes */
+
+discord{
+    color: #535FF3;
+}
+insta{
+    color: #AB7DD8;
+}
+linkedin{
+    color: #455E8D;
+}
+tiktok{
+    color: #D35676;
+}
+twitter{
+    color: #3D9DFF;
+}
+edge{
+    color: #BE8438;
+}
+valid{
+    color: #2DAE68;
+}
+echec{
+    color: #CF5454;
+}
+
 /* Apply style to link in tag */
-w a:link, w a:visited, x a:link, x a:visited, j a:link, j a:visited, k a:link, k a:visited, l a:link, l a:visited, m a:link, m a:visited, 
-n a:link, n a:visited, u a:link, u a:visited, e1 a:link, e1 a:visited, e2 a:link, e2 a:visited, r1 a:link, r1 a:visited, r2 a:link, r2 a:visited, 
-r3 a:link, r3 a:visited, k1 a:link, k1 a:visited, k2 a:link, k2 a:visited, k3 a:link, k3 a:visited, k4 a:link, k4 a:visited, fond1 a:link, fond1 a:visited, 
-fond2 a:link, fond2 a:visited, up1 a:link, up1 a:visited, beauty a:link, beauty a:visited, gradiant a:link, gradiant a:visited, best1 a:link, best1 a:visited, 
-best2 a:link, best2 a:visited, uno a:link, uno a:visited, dos a:link, dos a:visited, adams a:link, adams a:visited, dudley a:link, dudley a:visited, 
-kirkland a:link, kirkland a:visited, pfo a:link, pfo a:visited, students a:link, students a:visited, iwantit a:link, iwantit a:visited, love a:link, 
-love a:visited, fire a:link, fire a:visited, idwbya a:link, idwbya a:visited, darkrises a:link, darkrises a:visited, title1 a:link, title1 a:visited, 
-title2 a:link, title2 a:visited, title3 a:link, title3 a:visited, title4 a:link, title4 a:visited, title5 a:link, title5 a:visited, title6 a:link, 
-title6 a:visited, title7 a:link, title7 a:visited{
+b a:link, b a:visited, b2 a:link, b2 a:visited, b3 a:link, b3 a:visited, i a:link, i a:visited, i2 a:link, i2 a:visited, m a:link, m a:visited, m2 a:link, m2 a:visited,
+u a:link, u a:visited, u2 a:link, u2 a:visited, bg a:link, bg a:visited, bg2 a:link, bg2 a:visited, gradient a:link, gradient a:visited, opacity a:link, opacity a:visited,
+opacity2 a:link, opacity2 a:visited, outline2 a:link, outline2 a:visited, outline3 a:link, outline3 a:visited, title a:link, title a:visited, title1 a:link, title1 a:visited,
+title2 a:link, title2 a:visited, title3 a:link, title3 a:visited, title4 a:link, title4 a:visited, title5 a:link, title5 a:visited, title6 a:link, title6 a:visited,
+discord a:link, discord a:visited, insta a:link, insta a:visited, linkedin a:link, linkedin a:visited, tiktok a:link, tiktok a:visited, twitter a:link, twitter a:visited,
+edge a:link, edge a:visited, valid a:link, valid a:visited, echec a:link, echec a:visited{
     color: currentColor!important;
 }
-w a:hover, x a:hover, j a:hover, k a:hover, l a:hover, m a:hover, n a:hover, u a:hover, e1 a:hover, e2 a:hover, r1 a:hover, r2 a:hover, 
-r3 a:hover, k1 a:hover, k2 a:hover, k3 a:hover, k4 a:hover, fond1 a:hover, fond2 a:hover, up1 a:hover, beauty a:hover, gradiant a:hover, best1 a:hover, 
-best2 a:hover, uno a:hover, dos a:hover, adams a:hover, dudley a:hover, kirkland a:hover, pfo a:hover, students a:hover, iwantit a:hover, love a:hover, fire a:hover, idwbya a:hover, 
-darkrises a:hover, title1 a:hover, title2 a:hover, title3 a:hover, title4 a:hover, title5 a:hover, title6 a:hover, title7 a:hover{
+b a:hover, b2 a:hover, b3 a:hover, i a:hover, i2 a:hover, m a:hover, m2 a:hover,
+u a:hover, u2 a:hover, bg a:hover, bg2 a:hover, gradient a:hover, opacity a:hover,
+opacity2 a:hover, outline2 a:hover, outline3 a:hover, title a:hover, title1 a:hover,
+title2 a:hover, title3 a:hover, title4 a:hover, title5 a:hover, title6 a:hover,
+discord a:hover, insta a:hover, linkedin a:hover, tiktok a:hover, twitter a:hover,
+edge a:hover, valid a:hover, echec a:hover{
     color: currentColor!important;
 }
