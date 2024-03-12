@@ -218,10 +218,13 @@ edge{
     color: #BE8438;
 }
 valid{
-    color: #2DAE68;
+    color: var(--color-success);
 }
 echec{
-    color: #CF5454;
+    color: var(--color-error);
+}
+warning{
+    color: var(--color-warning);
 }
 
 /* Apply style to link in tag */
