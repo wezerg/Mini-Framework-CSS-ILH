@@ -1,5 +1,3 @@
-
-/* Change colors and opacity */
 /* Color */
 .bg-uno{background-color: var(--color-uno)!important}
 .bg-uno-light{background-color: rgba(var(--rgb-uno), 0.4);}
@@ -35,30 +33,18 @@
 .c-white{color: var(--color-white)!important}
 .bg-buttons{background-color: var(--color-buttons)!important}
 .c-buttons{color: var(--color-buttons)!important}
-
-
-/* 
-.bg-lu{background-color: var(--color-lu)!important}
-.c-lu{color: var(--color-lu)!important}
-.bg-sous-ligne{background-color: var(--color-sous-ligne)!important}
-.c-sous-ligne{color: var(--color-sous-ligne)!important}
-.img-filter-uno{filter: var(--filter-color-uno)!important}
-.img-filter-dos{filter: var(--filter-color-dos)!important}
-.img-filter-fond-forum{filter: var(--filter-fond-forum)!important} */
+.bg-success{background-color: var(--color-success)!important}
+.c-success{color: var(--color-success)!important}
+.bg-error{background-color: var(--color-error)!important}
+.c-error{color: var(--color-error)!important}
+.bg-warning{background-color: var(--color-warning)!important}
+.c-warning{color: var(--color-warning)!important}
 
 /* Border */
-/* TODO => Keep just 2 and 5 for Border radius */
 .br-0{border-radius: 0!important}
 .br-2{border-radius: 2px!important}
 .br-5{border-radius: 5px!important}
 .br-50{border-radius: 50%!important}
-
-
-/* .br-8{border-radius: 8px!important}
-.br-10{border-radius: 10px!important}
-.br-20{border-radius: 20px!important} */
-
-
 
 /* Text */
 .text-xl, .text-xl *{
@@ -86,74 +72,6 @@
     font-size: 11px;
     line-height: 13px;
 }
-
-/* .text-xl-mulish, .text-xl-mulish *{
-    font-family: 'Mulish';
-    font-size: 30px;
-    line-height: 38px;
-}
-.text-l-mulish, .text-l-mulish *{
-    font-family: 'Mulish';
-    font-size: 20px;
-    line-height: 25px;
-}
-.text-m-mulish, .text-m-mulish *{
-    font-family: 'Mulish';
-    font-size: 15px;
-    line-height: 19px;
-}
-.text-s-mulish, .text-s-mulish *{
-    font-family: 'Mulish';
-    font-size: 13px;
-    line-height: 16px;
-}
-.text-xl-bebas, .text-xl-bebas *{
-    font-family: 'Bebas Neue';
-    font-size: 36px;
-    line-height: 43px;
-}
-.text-l-bebas, .text-l-bebas *{
-    font-family: 'Bebas Neue';
-    font-size: 30px;
-    line-height: 36px;
-    letter-spacing: 0.14em;
-}
-.text-m-bebas, .text-m-bebas *{
-    font-family: 'Bebas Neue';
-    font-size: 25px;
-    line-height: 30px;
-    letter-spacing: 0.07em;
-}
-.text-s-bebas, .text-s-bebas *{
-    font-family: 'Bebas Neue';
-    font-size: 20px;
-    line-height: 24px;
-}
-.text-xs-bebas, .text-xs-bebas *{
-    font-family: 'Bebas Neue';
-    font-size: 15px;
-    line-height: 19px;
-}
-.text-xl-abril, .text-xl-abril *{
-    font-family: 'Abril Fatface'!important;
-    font-size: 50px!important;
-    line-height: 67px!important;
-}
-.text-l-abril, .text-l-abril *{
-    font-family: 'Abril Fatface';
-    font-size: 32px;
-    line-height: 43px;
-}
-.text-m-abril, .text-m-abril *{
-    font-family: 'Abril Fatface';
-    font-size: 20px;
-    line-height: 27px;
-}
-.text-s-abril, .text-s-abril *{
-    font-family: 'Abril Fatface';
-    font-size: 15px;
-    line-height: 19px;
-} */
 .text-upper{text-transform: uppercase;}
 .text-bold{font-weight: 700;}
 .text-semibold{font-weight: 600;}
@@ -547,6 +465,37 @@ body#mpage-body-modern .search-topic-category span{
     top: 0;
     right: 0;
     transform: translateY(-40%);
+}
+.delimiter-dos{
+    border-bottom: 3px solid var(--color-dos);
+    position: relative;
+    margin: 15px;
+    color: var(--color-dos);
+    text-align: center;
+    display: block;
+    width: calc(100% - 30px);
+}
+.delimiter-dos.left::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--color-dos);
+    bottom: -9px;
+    left: -5px;
+}
+.delimiter-dos.right::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--color-dos);
+    bottom: -9px;
+    right: -5px;
 }
 
 /* Rewrite icons */
