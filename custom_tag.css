@@ -47,6 +47,7 @@ bg{/* Color white, Background uno, Bold, Uppercase */
     text-transform: uppercase;
     border-radius: 5px;
     padding: 0 8px;
+    line-height: 170%;
 }
 bg2{/* Color white, Background dos, Bold, Uppercase */
     color: var(--color-white);
@@ -55,6 +56,7 @@ bg2{/* Color white, Background dos, Bold, Uppercase */
     text-transform: uppercase;
     border-radius: 5px;
     padding: 0 8px;
+    line-height: 170%;
 }
 gradient{/* Color white, Background gradient, Bold, Uppercase */
     color: var(--color-white);
@@ -63,6 +65,7 @@ gradient{/* Color white, Background gradient, Bold, Uppercase */
     text-transform: uppercase;
     border-radius: 5px;
     padding: 0 8px;
+    line-height: 170%;
 }
 opacity{/* Color uno, Background uno light, Bold, Uppercase */
     color: var(--color-uno);
@@ -71,6 +74,7 @@ opacity{/* Color uno, Background uno light, Bold, Uppercase */
     text-transform: uppercase;
     border-radius: 5px;
     padding: 0 8px;
+    line-height: 170%;
 }
 opacity2{/* Color dos, Background dos light, Bold, Uppercase */
     color: var(--color-dos);
@@ -79,6 +83,7 @@ opacity2{/* Color dos, Background dos light, Bold, Uppercase */
     text-transform: uppercase;
     border-radius: 5px;
     padding: 0 8px;
+    line-height: 170%;
 }
 outline{/* Color uno, Border uno, Bold, Uppercase */
     color: var(--color-uno);
@@ -87,6 +92,7 @@ outline{/* Color uno, Border uno, Bold, Uppercase */
     text-transform: uppercase;
     border-radius: 5px;
     padding: 0 8px;
+    line-height: 170%;
 }
 outline2{/* Color dos, Border dos, Bold, Uppercase */
     color: var(--color-dos);
@@ -95,6 +101,7 @@ outline2{/* Color dos, Border dos, Bold, Uppercase */
     text-transform: uppercase;
     border-radius: 5px;
     padding: 0 8px;
+    line-height: 170%;
 }
 outline3{/* Color uno, Border uno, Bold, Uppercase */
     color: var(--color-text);
@@ -105,6 +112,7 @@ outline3{/* Color uno, Border uno, Bold, Uppercase */
     text-transform: uppercase;
     border-radius: 5px;
     padding: 0 8px;
+    line-height: 170%;
 }
 
 /* Titles */
@@ -195,6 +203,17 @@ title6::before{
     bottom: 50%;
     transform: translateY(calc(-50% + 5px));
     left: 0;
+}
+
+/* Baliser tw */
+
+tw {
+    filter: blur(3px);
+    transition: filter .3s;
+}
+  
+tw:hover {
+filter: none;
 }
 
 /* Groupes */
