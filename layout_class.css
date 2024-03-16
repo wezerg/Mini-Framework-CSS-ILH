@@ -305,7 +305,7 @@ navi button{
     font-weight: 700;
     border: none;
     padding: 3px 6px;
-    margin: 0 4px;
+    margin: 4px;
     cursor: pointer;
 }
 navi button:nth-child(2n){
