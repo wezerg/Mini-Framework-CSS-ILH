@@ -410,7 +410,7 @@ pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(1)
     position: absolute;
     font-size: 14px;
     font-weight: 700;
-    top: 4;
+    top: 4px;
     left: 26px;
 }
 pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(2)::before{
@@ -453,6 +453,7 @@ pres > section > article:nth-child(2) > ul{
     flex-wrap: wrap;
     list-style: none;
     gap: 16px;
+    margin: 8px 0;
 }
 pres > section > article:nth-child(2) > ul > li{
     display: flex;
