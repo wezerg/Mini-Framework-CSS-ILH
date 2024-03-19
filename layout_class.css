@@ -235,12 +235,78 @@ list-btn .btn-dos{
     border-radius: 2px;
     max-height: 230px;
     overflow-y: auto;
+    padding: 16px;
+}
+/* Composant bloc */
+.bloc-text{
+    padding: 8px;
+    border-radius: 2px;
+    background: var(--color-bloc-2);
 }
 /* Composant galerie image */
-.galerie-img{
+.galerie-img, .galerie-img-l{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 4px;
+}
+.galerie-img > img, .galerie-img-l > img{
+    display: flex;
+    min-width: 30%;
+    flex: 30%;
+    background-color: var(--color-fond);
+    object-fit: cover;
+    object-position: center;
+}
+.galerie-img > img{
+    max-height: 164px;
+    max-width: 164px !important;
+}
+.galerie-img-l > img{
+    max-height: 500px;
+    max-width: 500px !important;
+}
+/* Composant fake checkbox */
+ul.fake-checkbox{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 16px;
+    margin: 8px 0;
+}
+ul.fake-checkbox > li{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+ul.fake-checkbox > li::before{
+    content: "";
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--color-text-supalight);
+    background: var(--color-white);
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 4px;
+}
+ul.fake-checkbox > li.active::before{
+    content: "";
+    border: 1px solid var(--color-uno);
+    background: var(--color-uno);
+    display: inline-block;
+    margin-right: 4px;
+}
+ul.fake-checkbox > li.active::after{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    width: 12px;
+    height: 12px;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    /* Windows High Contrast Mode */
+    background-color: var(--color-white);
 }
 /* Composant fake formulaire */
 formulaire{
@@ -336,7 +402,8 @@ pres{
     border-radius: 5px;
     background: var(--color-bloc-2);
     box-shadow: 0px 1px 4px 0px rgba(116, 116, 116, 0.25);
-    margin-top: 25px;
+    margin: 25px auto 0;
+    max-width: 700px;
 }
 pres > header{
     display: flex;
@@ -388,10 +455,10 @@ pres > section > article:nth-child(1) > div:nth-child(2){
     box-shadow: 0px 1px 4px 0px rgba(116, 116, 116, 0.25);
     padding: 8px;
 }
-pres > section > article:nth-child(1) > div:nth-child(2) > .codebox{
+pres > section > article:nth-child(1) > div:nth-child(2) > .codebox, pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text{
     position: relative;
 }
-pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(1)::before{
+pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(1)::before, pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(1)::before{
     content: "";
     display: inline-block;
     width: 18px;
@@ -413,7 +480,15 @@ pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(1)
     top: 4px;
     left: 26px;
 }
-pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(2)::before{
+pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(1)::after{
+    content: "Résumé de l'histoire";
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    top: 4px;
+    left: 26px;
+}
+pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(2)::before, pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(2)::before{
     content: "";
     display: inline-block;
     width: 18px;
@@ -427,7 +502,7 @@ pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(2)
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
 }
-pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(2)::after{
+pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(2)::after, pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(2)::after{
     content: "Caractère";
     position: absolute;
     font-size: 14px;
@@ -448,48 +523,6 @@ pres > section > article:nth-child(2) > p > span{
     color: var(--color-dos);
     margin-left: 4px;
 }
-pres > section > article:nth-child(2) > ul{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    gap: 16px;
-    margin: 8px 0;
-}
-pres > section > article:nth-child(2) > ul > li{
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-pres > section > article:nth-child(2) > ul > li::before{
-    content: "";
-    width: 16px;
-    height: 16px;
-    border: 1px solid var(--color-text-supalight);
-    background: var(--color-white);
-    border-radius: 5px;
-    display: inline-block;
-    margin-right: 4px;
-}
-pres > section > article:nth-child(2) > ul > li.active::before{
-    content: "";
-    border: 1px solid var(--color-uno);
-    background: var(--color-uno);
-    display: inline-block;
-    margin-right: 4px;
-}
-pres > section > article:nth-child(2) > ul > li.active::after{
-    content: "";
-    position: absolute;
-    top: 5px;
-    left: 3px;
-    width: 12px;
-    height: 12px;
-    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
-    transform-origin: bottom left;
-    transition: 120ms transform ease-in-out;
-    /* Windows High Contrast Mode */
-    background-color: var(--color-white);
-}
 /* Presentation : third article */
 pres > section > article:nth-child(3){
     margin-top: 24px;
@@ -509,7 +542,7 @@ wtt-profil{
     background: var(--color-bloc-2);
     box-shadow: 0px 1px 4px 0px rgba(116, 116, 116, 0.25);
     padding: 14px 18px; 
-    max-width: 535px;
+    max-width: 500px;
 }
 /* Wtt profil : first bloc */
 wtt-profil > div:nth-child(1){
@@ -920,16 +953,7 @@ post-image > header > span{
     text-transform: uppercase;
 }
 post-image > div{
-    overflow: hidden;
     border-radius: 5px;
-    max-height: 260px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-post-image > div > img{
-    width: 100%;
-    height: auto;
 }
 post-image > p{
     font-size: 14px;
