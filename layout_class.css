@@ -251,7 +251,7 @@ formulaire label{
     text-transform: uppercase;
     margin-bottom: 4px;
 }
-formulaire fake-input, formulaire fake-textarea{
+fake-input, fake-textarea{
     background: var(--color-bloc-1);
     border-radius: 5px;
     padding: 10px;
@@ -260,23 +260,23 @@ formulaire fake-input, formulaire fake-textarea{
     font-size: 14px;
     margin-bottom: 16px;
 }
-formulaire fake-input{
+fake-input{
     display: flex;
     max-height: 40px;
     gap: 8px;
     overflow-y: auto;
 }
-formulaire fake-input iconify-icon{
+fake-input iconify-icon{
     min-width: 18px;
     min-height: 18px;
 }
-formulaire fake-textarea{
+fake-textarea{
     display: block;
     min-height: 140px;
     max-height: 140px;
     overflow-y: auto;
 }
-formulaire fake-textarea iconify-icon{
+fake-textarea iconify-icon{
     float: left;
     margin: 4px 8px 0 0;
     min-width: 18px;
