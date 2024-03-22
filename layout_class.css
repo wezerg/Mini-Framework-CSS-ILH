@@ -454,6 +454,9 @@ pres > section > article:nth-child(1) > div:nth-child(2){
     background: var(--color-bloc-3);
     box-shadow: 0px 1px 4px 0px rgba(116, 116, 116, 0.25);
     padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 pres > section > article:nth-child(1) > div:nth-child(2) > .codebox, pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text{
     position: relative;
@@ -472,21 +475,25 @@ pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(1)
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
 }
-pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(1)::after{
+pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(4)::after{
     content: "Histoire";
     position: absolute;
     font-size: 14px;
     font-weight: 700;
-    top: 4px;
-    left: 26px;
+    top: 6px;
+    left: 32px;
+}
+pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(1){
+    overflow-y: auto;
+    max-height: 175px;
 }
 pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(1)::after{
     content: "Résumé de l'histoire";
     position: absolute;
     font-size: 14px;
     font-weight: 700;
-    top: 4px;
-    left: 26px;
+    top: 6px;
+    left: 32px;
 }
 pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(2)::before, pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(2)::before{
     content: "";
@@ -502,13 +509,17 @@ pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(2)
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
 }
+pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(2)::after{
+    overflow-y: auto;
+    max-height: 125px;
+}
 pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(2)::after, pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(2)::after{
     content: "Caractère";
     position: absolute;
     font-size: 14px;
     font-weight: 700;
-    top: 4;
-    left: 26px;
+    top: 6px;
+    left: 32px;
 }
 /* Presentation : second article */
 pres > section > article:nth-child(2){
@@ -780,9 +791,11 @@ wtt-notif > span{
     right: 0;
     top: 8px;
     border-radius: 2px 0 0 2px;
-    color: var(--color-dos);
     background: rgba(var(--rgb-dos), 0.4);
     padding: 2px 8px;
+}
+wtt-notif > span > a{
+    color: var(--color-dos)!important;
 }
 
 /* Blaze profil */

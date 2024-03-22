@@ -242,16 +242,20 @@ dl.codebox{
 dl.codebox dt{
     border-bottom: none;
 }
+dl.codebox dt > button{
+    font-family: "Poppins";
+}
 /* Element quote */
 blockquote{
     text-align: justify;
 }
 #phpbb blockquote{
-    margin: 12px 44px;
+    margin: 12px auto;
     padding: 8px;
     background: unset;
     border: none;
     font-size: 14px;
+    max-width: 70%;
 }
 blockquote blockquote{
     background-color: unset;
@@ -276,14 +280,16 @@ blockquote cite{
     content: '';
 }
 dl.codebox code{
-    border: 1px dashed var(--color-uno);
+    border: 1px solid rgba(var(--rgb-uno), 0.6);
+    border-radius: 5px;
     padding: 10px 16px;
     color: var(--color-text);
     word-break: break-word;
 }
 /* Element spoiler */
 dl.codebox.spoiler .spoiler_title{
-    background-color: var(--color-uno);
+    background-color: rgba(var(--rgb-dos), 0.6);
+    border-radius: 5px;
     color: var(--color-white);
     font-weight: 700;
     line-height: 14px;
@@ -291,15 +297,17 @@ dl.codebox.spoiler .spoiler_title{
     padding: 8px 12px;
 }
 .spoiler_content{
-    border: 1px dashed var(--color-uno);
+    border: 1px solid rgba(var(--rgb-dos), 0.6);
     padding: 10px 16px;
     margin: 12px 20px;
+    border-radius: 5px;
 }
 /* Element hide */
 dl.codebox.hidecode{
-    border: 1px dashed var(--color-uno);
+    border: 1px solid rgba(var(--rgb-uno), 0.6);
     background: var(--color-bloc-3);
     padding: 10px 16px;
+    border-radius: 5px;
 }
 dl.codebox.hidecode > dt{
     display: none;
