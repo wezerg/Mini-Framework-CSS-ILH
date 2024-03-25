@@ -322,7 +322,7 @@ formulaire > p{
     font-weight: 700;
     text-align: center;
 }
-formulaire label{
+formulaire label, fake-label{
     display: block;
     color: var(--color-dos);
     font-size: 12px;
@@ -456,70 +456,22 @@ pres > section > article:nth-child(1) > div:nth-child(2){
     padding: 8px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+}
+pres > section > article:nth-child(1) > div:nth-child(2) > p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+pres > section > article:nth-child(1) > div:nth-child(2) > p > span{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-text);
 }
 pres > section > article:nth-child(1) > div:nth-child(2) > .codebox, pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text{
-    position: relative;
-}
-pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(4)::before, pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(1)::before{
-    content: "";
-    display: block;
-    width: 18px;
-    height: 18px;
-    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M9.945 1.25h4.11c1.368 0 2.47 0 3.337.117c.9.12 1.658.38 2.26.981c.602.602.86 1.36.982 2.26c.116.867.116 1.97.116 3.337v8.11c0 1.367 0 2.47-.116 3.337c-.121.9-.38 1.658-.982 2.26c-.602.602-1.36.86-2.26.982c-.867.116-1.97.116-3.337.116h-4.11c-1.367 0-2.47 0-3.337-.116c-.9-.122-1.658-.38-2.26-.982c-.601-.602-.86-1.36-.981-2.26a11.487 11.487 0 0 1-.082-.943a.746.746 0 0 1-.016-.392a65.809 65.809 0 0 1-.019-2.002v-8.11c0-1.367 0-2.47.117-3.337c.12-.9.38-1.658.982-2.26c.601-.602 1.36-.86 2.26-.981c.866-.117 1.969-.117 3.336-.117m-5.168 17c.015.353.039.664.076.942c.099.734.28 1.122.556 1.399c.277.277.666.457 1.4.556c.755.101 1.756.103 3.191.103h4c1.436 0 2.437-.002 3.192-.103c.734-.099 1.122-.28 1.4-.556c.196-.196.343-.449.448-.841H8a.75.75 0 0 1 0-1.5h11.223c.019-.431.025-.925.026-1.5H7.898c-.978 0-1.32.006-1.582.077a2.25 2.25 0 0 0-1.54 1.422m14.473-3H7.782c-.818 0-1.376 0-1.855.128a3.748 3.748 0 0 0-1.177.548V8c0-1.435.002-2.437.103-3.192c.099-.734.28-1.122.556-1.399c.277-.277.666-.457 1.4-.556c.755-.101 1.756-.103 3.191-.103h4c1.436 0 2.437.002 3.192.103c.734.099 1.122.28 1.4.556c.276.277.456.665.555 1.4c.102.754.103 1.756.103 3.191zM7.25 7A.75.75 0 0 1 8 6.25h8a.75.75 0 0 1 0 1.5H8A.75.75 0 0 1 7.25 7m0 3.5A.75.75 0 0 1 8 9.75h5a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75' clip-rule='evenodd'/%3E%3C/svg%3E");
-    background-color: var(--color-uno);
-    -webkit-mask-image: var(--svg);
-    mask-image: var(--svg);
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-size: 100% 100%;
-    mask-size: 100% 100%;
-}
-pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(4)::after{
-    content: "Histoire";
-    position: absolute;
-    font-size: 14px;
-    font-weight: 700;
-    top: 6px;
-    left: 32px;
-}
-pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(1){
-    overflow-y: auto;
-    max-height: 175px;
-}
-pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(1)::after{
-    content: "Résumé de l'histoire";
-    position: absolute;
-    font-size: 14px;
-    font-weight: 700;
-    top: 6px;
-    left: 32px;
-}
-pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(2)::before, pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(2)::before{
-    content: "";
-    display: block;
-    width: 18px;
-    height: 18px;
-    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M12 2.75A9.25 9.25 0 0 0 2.75 12c0 1.481.348 2.879.965 4.118c.248.498.343 1.092.187 1.677l-.596 2.225a.55.55 0 0 0 .673.674l2.227-.596a2.383 2.383 0 0 1 1.676.187A9.208 9.208 0 0 0 12 21.25a9.25 9.25 0 0 0 0-18.5M1.25 12C1.25 6.063 6.063 1.25 12 1.25S22.75 6.063 22.75 12S17.937 22.75 12 22.75c-1.718 0-3.344-.404-4.787-1.122a.885.885 0 0 0-.62-.08l-2.226.595c-1.524.408-2.918-.986-2.51-2.51l.596-2.226a.885.885 0 0 0-.08-.62A10.709 10.709 0 0 1 1.25 12m6-1.5A.75.75 0 0 1 8 9.75h8a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75m0 3.5a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75' clip-rule='evenodd'/%3E%3C/svg%3E");
-    background-color: var(--color-uno);
-    -webkit-mask-image: var(--svg);
-    mask-image: var(--svg);
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-size: 100% 100%;
-    mask-size: 100% 100%;
-}
-pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(2){
+    margin-bottom: 8px;
+    text-align: justify;
     overflow-y: auto;
     max-height: 125px;
-}
-pres > section > article:nth-child(1) > div:nth-child(2) > .codebox:nth-child(2)::after, pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text:nth-child(2)::after{
-    content: "Caractère";
-    position: absolute;
-    font-size: 14px;
-    font-weight: 700;
-    top: 6px;
-    left: 32px;
 }
 /* Presentation : second article */
 pres > section > article:nth-child(2){
