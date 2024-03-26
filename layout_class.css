@@ -461,6 +461,7 @@ pres > section > article:nth-child(1) > div:nth-child(2) > p{
     display: flex;
     align-items: center;
     gap: 8px;
+    margin-bottom: 0;
 }
 pres > section > article:nth-child(1) > div:nth-child(2) > p > span{
     font-size: 14px;
@@ -473,10 +474,11 @@ pres > section > article:nth-child(1) > div:nth-child(2) > .codebox, pres > sect
 }
 pres > section > article:nth-child(1) > div:nth-child(2) > .bloc-text{
     overflow-y: auto;
-    max-height: 120px;
+    max-height: 125px;
+    margin-top: 4px;
 }
 pres > section > article:nth-child(1) > div:nth-child(2) > dl.codebox code{
-    max-height: 80px;
+    max-height: 90px;
 }
 /* Presentation : second article */
 pres > section > article:nth-child(2){
