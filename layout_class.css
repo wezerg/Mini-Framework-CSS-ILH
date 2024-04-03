@@ -342,7 +342,7 @@ fake-input, fake-textarea{
 fake-input{
     display: flex;
     max-height: 40px;
-    gap: 8px;
+    gap: 4px;
     overflow-y: auto;
 }
 fake-input iconify-icon{
