@@ -262,8 +262,8 @@ list-btn .btn-dos{
     max-width: 164px !important;
 }
 .galerie-img-l > img{
-    max-height: 500px;
-    max-width: 500px !important;
+    max-height: 100%;
+    max-width: 100% !important;
 }
 /* Composant fake checkbox */
 ul.fake-checkbox{
