@@ -231,7 +231,7 @@ list-btn .btn-dos{
 }
 /* Composant bloc scrollable */
 .bloc-scroll{
-    background-color: var(--color-bloc-3);
+    background-color: var(--color-bloc-2);
     border-radius: 2px;
     max-height: 230px;
     overflow-y: auto;
@@ -535,6 +535,17 @@ lien > header p {
 lien > header span {
     font-size: 11px;
     color: var(--color-text-medium);
+}
+lien > header span::before{
+    content: "warning";
+    display: inline-block;
+    margin-right: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--color-dos);
+    background: rgba(var(--rgb-dos), 0.2);
+    border-radius: 16px;
+    padding: 0px 10px;
 }
 /* Fiche de liens : section */
 lien > section{
